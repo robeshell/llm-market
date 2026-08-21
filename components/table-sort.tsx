@@ -28,9 +28,12 @@ export function compareValues(
   b: string | number | null | undefined,
   dir: SortDir,
 ): number {
-  const empty = dir === "asc" ? 1 : -1;
-  if (a === null || a === undefined) return empty;
-  if (b === null || b === undefined) return -empty;
+  // 空值始终沉底（升序、降序一致），避免降序时 null 冲到表头
+  const aEmpty = a === null || a === undefined;
+  const bEmpty = b === null || b === undefined;
+  if (aEmpty && bEmpty) return 0;
+  if (aEmpty) return 1;
+  if (bEmpty) return -1;
 
   let result = 0;
   if (typeof a === "number" && typeof b === "number") {

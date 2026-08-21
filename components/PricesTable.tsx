@@ -157,13 +157,13 @@ export function PricesTable({ items }: { items: PriceRecord[] }) {
                 label="输入"
                 active={sortKey === "inputPerMillion"}
                 dir={sortDir}
-                onClick={() => toggle("inputPerMillion", "asc")}
+                onClick={() => toggle("inputPerMillion", "desc")}
               />
               <SortableTh
                 label="输出"
                 active={sortKey === "outputPerMillion"}
                 dir={sortDir}
-                onClick={() => toggle("outputPerMillion", "asc")}
+                onClick={() => toggle("outputPerMillion", "desc")}
               />
             </tr>
           </thead>
