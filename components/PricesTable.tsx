@@ -11,6 +11,7 @@ import {
 } from "@/lib/currency";
 import { logoForCreator } from "@/lib/vendors";
 import { VendorBadge } from "@/components/VendorBadge";
+import { MenuSelect } from "@/components/MenuSelect";
 import { SortableTh, useTableSort, compareValues } from "@/components/table-sort";
 
 type SortKey =
@@ -20,6 +21,8 @@ type SortKey =
   | "contextLength"
   | "inputPerMillion"
   | "outputPerMillion";
+
+const ALL_PROVIDERS = "";
 
 function valueOf(row: PriceRecord, key: SortKey): string | number | null {
   switch (key) {
@@ -55,22 +58,40 @@ function comparePriceRows(
 
 export function PricesTable({ items }: { items: PriceRecord[] }) {
   const [query, setQuery] = useState("");
+  const [provider, setProvider] = useState(ALL_PROVIDERS);
   const [currency, setCurrency] = useState<CurrencyCode>(DEFAULT_CURRENCY);
   const { sortKey, sortDir, toggle } = useTableSort<SortKey>(
     "intelligenceIndex",
     "desc",
   );
 
+  const providerOptions = useMemo(() => {
+    const names = [...new Set(items.map((row) => row.provider))].sort((a, b) =>
+      a.localeCompare(b, "zh-CN", { sensitivity: "base" }),
+    );
+    return [
+      { value: ALL_PROVIDERS, label: "全部" },
+      ...names.map((name) => ({ value: name, label: name })),
+    ];
+  }, [items]);
+
+  const currencyOptions = [
+    { value: "USD", label: "USD ($)" },
+    { value: "CNY", label: "CNY (¥)" },
+  ];
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return items;
-    return items.filter(
-      (row) =>
+    return items.filter((row) => {
+      if (provider && row.provider !== provider) return false;
+      if (!q) return true;
+      return (
         row.name.toLowerCase().includes(q) ||
         row.provider.toLowerCase().includes(q) ||
-        row.id.toLowerCase().includes(q),
-    );
-  }, [items, query]);
+        row.id.toLowerCase().includes(q)
+      );
+    });
+  }, [items, query, provider]);
 
   const rows = useMemo(() => {
     return [...filtered].sort((a, b) => {
@@ -99,21 +120,23 @@ export function PricesTable({ items }: { items: PriceRecord[] }) {
             className="field"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="筛选模型或厂商"
+            placeholder="筛选模型"
             autoComplete="off"
           />
-          <label className="currency-label" htmlFor="price-currency">
-            币种
-          </label>
-          <select
+          <MenuSelect
+            id="price-provider"
+            label="厂商"
+            value={provider}
+            options={providerOptions}
+            onChange={setProvider}
+          />
+          <MenuSelect
             id="price-currency"
-            className="currency-select"
+            label="币种"
             value={currency}
-            onChange={(e) => setCurrency(e.target.value as CurrencyCode)}
-          >
-            <option value="USD">USD ($)</option>
-            <option value="CNY">CNY (¥)</option>
-          </select>
+            options={currencyOptions}
+            onChange={(next) => setCurrency(next as CurrencyCode)}
+          />
         </div>
         <p
           className="text-sm text-muted-foreground num"
