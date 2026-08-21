@@ -38,6 +38,21 @@ function valueOf(row: PriceRecord, key: SortKey): string | number | null {
   }
 }
 
+/** 价格排序时把 0 / 空值沉底，避免免费模型占满表头看起来像「丢数据」 */
+function priceSortValue(value: number | null): number | null {
+  if (value === null || Number.isNaN(value) || value === 0) return null;
+  return value;
+}
+
+function comparePriceRows(
+  a: PriceRecord,
+  b: PriceRecord,
+  key: "inputPerMillion" | "outputPerMillion",
+  dir: "asc" | "desc",
+): number {
+  return compareValues(priceSortValue(a[key]), priceSortValue(b[key]), dir);
+}
+
 export function PricesTable({ items }: { items: PriceRecord[] }) {
   const [query, setQuery] = useState("");
   const [currency, setCurrency] = useState<CurrencyCode>(DEFAULT_CURRENCY);
@@ -58,9 +73,18 @@ export function PricesTable({ items }: { items: PriceRecord[] }) {
   }, [items, query]);
 
   const rows = useMemo(() => {
-    return [...filtered].sort((a, b) =>
-      compareValues(valueOf(a, sortKey), valueOf(b, sortKey), sortDir),
-    );
+    return [...filtered].sort((a, b) => {
+      if (sortKey === "inputPerMillion" || sortKey === "outputPerMillion") {
+        const byPrice = comparePriceRows(a, b, sortKey, sortDir);
+        if (byPrice !== 0) return byPrice;
+        return compareValues(
+          a.intelligenceIndex,
+          b.intelligenceIndex,
+          "desc",
+        );
+      }
+      return compareValues(valueOf(a, sortKey), valueOf(b, sortKey), sortDir);
+    });
   }, [filtered, sortKey, sortDir]);
 
   return (
