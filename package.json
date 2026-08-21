@@ -9,7 +9,8 @@
     "lint": "eslint",
     "fetch": "node scripts/fetch-all.mjs",
     "fetch:prices": "node scripts/fetch-prices.mjs",
-    "fetch:rankings": "node scripts/fetch-rankings.mjs"
+    "fetch:rankings": "node scripts/fetch-rankings.mjs",
+    "fetch:logos": "node scripts/fetch-logos.mjs"
   },
   "dependencies": {
     "next": "16.3.1",

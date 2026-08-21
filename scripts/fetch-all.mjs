@@ -18,3 +18,4 @@ function run(script) {
 
 await run("fetch-prices.mjs");
 await run("fetch-rankings.mjs");
+await run("fetch-logos.mjs");

@@ -24,6 +24,8 @@ export function VendorBadge({
           height={16}
           className="h-4 w-4 shrink-0 object-contain"
           loading="lazy"
+          decoding="async"
+          referrerPolicy="no-referrer"
           onError={() => setFailed(true)}
         />
       ) : (

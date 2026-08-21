@@ -1,8 +1,4 @@
-/** Artificial Analysis 托管的厂商 logo */
-export const VENDOR_LOGO_BASE =
-  "https://artificialanalysis.ai/img/logos";
-
-/** OpenRouter provider id → AA logo 文件名 */
+/** OpenRouter provider id → logo 文件名（public/logos） */
 const PROVIDER_LOGO: Record<string, string> = {
   allenai: "ai2_small.svg",
   amazon: "aws_small.svg",
@@ -77,9 +73,25 @@ const CREATOR_NAME_LOGO: Record<string, string> = {
   "Z AI": "zai_small.svg",
 };
 
+/** 站点 basePath（GitHub Pages 为 /llm-market，本地为空） */
+function siteBasePath(): string {
+  return process.env.NEXT_PUBLIC_BASE_PATH || "";
+}
+
+/** 本地托管：public/logos/<file> */
 export function vendorLogoUrl(logoFile: string | null | undefined): string | null {
   if (!logoFile) return null;
-  return `${VENDOR_LOGO_BASE}/${logoFile}`;
+  const base = pathBasename(logoFile);
+  if (!base) return null;
+  return `${siteBasePath()}/logos/${base}`;
+}
+
+function pathBasename(name: string): string | null {
+  const base = name.split(/[/\\]/).pop() || "";
+  if (!base || base.includes("..") || !/^[a-zA-Z0-9._-]+$/.test(base)) {
+    return null;
+  }
+  return base;
 }
 
 export function logoForProvider(provider: string): string | null {
