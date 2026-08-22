@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:58:52.706Z",
+  "updatedAt": "2026-08-22T01:35:47.163Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -63,6 +63,16 @@
       "intelligenceIndex": 60.92297113115
     },
     {
+      "id": "grok-4-6-xhigh",
+      "name": "Grok 4.6 (xhigh)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 60.0135565827745
+    },
+    {
       "id": "kimi-k3",
       "name": "Kimi K3 (max)",
       "provider": "Kimi",
@@ -91,6 +101,16 @@
       "inputPerMillion": 5,
       "outputPerMillion": 30,
       "intelligenceIndex": 59.0090363705536
+    },
+    {
+      "id": "grok-4-6-medium",
+      "name": "Grok 4.6 (medium)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 59.0064109828411
     },
     {
       "id": "claude-opus-5-medium",
@@ -254,12 +274,12 @@
     },
     {
       "id": "qwen3-8-27b",
-      "name": "Qwen3.8 27B",
+      "name": "Qwen3.8 27B (xhigh)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.42500000000000004,
-      "outputPerMillion": 3.1,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
       "intelligenceIndex": 52.0246606497206
     },
     {
@@ -271,6 +291,16 @@
       "inputPerMillion": 0.44,
       "outputPerMillion": 1.32,
       "intelligenceIndex": 51.7665776089032
+    },
+    {
+      "id": "grok-4-6-low",
+      "name": "Grok 4.6 (low)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 51.6795741754728
     },
     {
       "id": "gemini-3-6-flash",
@@ -403,6 +433,16 @@
       "intelligenceIndex": 45.2683460762151
     },
     {
+      "id": "qwen3-8-27b-medium",
+      "name": "Qwen3.8 27B (medium)",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 44.4541866037653
+    },
+    {
       "id": "deepseek-v4-pro-0424-high",
       "name": "DeepSeek V4 Pro (high)",
       "provider": "DeepSeek",
@@ -431,6 +471,16 @@
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
       "intelligenceIndex": 42.8796821546836
+    },
+    {
+      "id": "qwen3-8-27b-low",
+      "name": "Qwen3.8 27B (low)",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 42.8682424392917
     },
     {
       "id": "claude-sonnet-5-non-reasoning",
@@ -1173,16 +1223,6 @@
       "intelligenceIndex": 18.657997906883
     },
     {
-      "id": "magistral-medium-2509",
-      "name": "Magistral Medium 1.2",
-      "provider": "Mistral",
-      "creatorLogo": "mistral_small.png",
-      "contextLength": 128000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 5,
-      "intelligenceIndex": 18.0471212082495
-    },
-    {
       "id": "nova-2-0-lite-reasoning-low",
       "name": "Nova 2.0 Lite (low)",
       "provider": "Amazon",
@@ -1441,6 +1481,16 @@
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.2,
       "intelligenceIndex": 11.2430177720022
+    },
+    {
+      "id": "lfm2-5-2-6b",
+      "name": "LFM2.5-2.6B",
+      "provider": "Liquid AI",
+      "creatorLogo": "liquidai_small.svg",
+      "contextLength": 128000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 10.9870554965071
     },
     {
       "id": "nova-2-0-omni",
