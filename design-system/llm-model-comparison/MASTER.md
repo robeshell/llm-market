@@ -6,7 +6,7 @@
 
 ---
 
-**Project:** llm-market
+**Project:** llm-model-comparison
 **Generated:** 2026-08-21 09:41:56
 **Category:** AI/Chatbot Platform
 **Design Dials:** Variance 3/10 (Centered / Minimal) | Motion 3/10 (Subtle) | Density 7/10 (Standard)

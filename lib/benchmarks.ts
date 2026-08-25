@@ -13,9 +13,9 @@ export const BENCHMARK_META: Record<
   { label: string; summary: string }
 > = {
   intelligenceIndex: {
-    label: "综合",
+    label: "AA 综合",
     summary:
-      "Artificial Analysis Intelligence Index：多项基准的综合能力分，越高越好。",
+      "Artificial Analysis Intelligence Index：将 Agents（34%）、编程（24%）、科学推理（24%）和通用能力（18%）加权为一项整体能力分，越高越好。",
   },
   codingIndex: {
     label: "Coding",

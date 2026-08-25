@@ -30,6 +30,9 @@ async function main() {
       lcr: num(m.lcr),
       isReasoning: Boolean(m.isReasoning),
       slug: m.slug || "",
+      isOpenWeights: typeof m.isOpenWeights === "boolean" ? m.isOpenWeights : null,
+      releaseDate: m.releaseDate || null,
+      huggingFaceUrl: m.huggingfaceUrl || null,
     }));
 
   const snapshot = {

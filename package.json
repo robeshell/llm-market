@@ -1,5 +1,5 @@
 {
-  "name": "llm-market",
+  "name": "llm-model-comparison",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "fetch": "node scripts/fetch-all.mjs",
     "fetch:prices": "node scripts/fetch-prices.mjs",
     "fetch:rankings": "node scripts/fetch-rankings.mjs",
+    "fetch:popularity": "node scripts/fetch-popularity.mjs",
     "fetch:logos": "node scripts/fetch-logos.mjs"
   },
   "dependencies": {

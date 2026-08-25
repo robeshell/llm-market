@@ -15,8 +15,8 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "llm-market",
-  description: "模型价格与排行",
+  title: "LLM 模型对比",
+  description: "大语言模型的价格、能力与上下文对比",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

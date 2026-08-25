@@ -21,6 +21,9 @@ async function main() {
       inputPerMillion: num(m.price1mInputTokens),
       outputPerMillion: num(m.price1mOutputTokens),
       intelligenceIndex: m.intelligenceIndex,
+      isOpenWeights: typeof m.isOpenWeights === "boolean" ? m.isOpenWeights : null,
+      releaseDate: m.releaseDate || null,
+      huggingFaceUrl: m.huggingfaceUrl || null,
     }))
     .filter(
       (row) =>

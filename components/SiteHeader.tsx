@@ -1,23 +1,25 @@
 import Link from "next/link";
 
 const links = [
-  { href: "/prices", label: "价格", key: "prices" },
-  { href: "/rankings", label: "排行", key: "rankings" },
+  { href: "/models", label: "模型目录", key: "models" },
+  { href: "/rankings", label: "模型评测", key: "rankings" },
+  { href: "/popularity", label: "使用排行", key: "popularity" },
+  { href: "/custom-ranking", label: "自定义榜单", key: "custom-ranking" },
 ] as const;
 
 export function SiteHeader({
   active,
 }: {
-  active?: "prices" | "rankings";
+  active?: "models" | "prices" | "rankings" | "popularity" | "custom-ranking";
 }) {
   return (
-    <header className="sticky top-0 z-20 border-b border-border bg-background/95 backdrop-blur-[2px]">
+    <header className="site-header sticky top-0 z-20 border-b border-border bg-background/95 backdrop-blur-[2px]">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-6 px-4 sm:px-6">
         <Link
-          href="/prices"
+          href="/models"
           className="text-[0.9375rem] font-medium tracking-tight text-foreground transition-opacity duration-200 hover:opacity-70"
         >
-          llm-market
+          LLM 模型对比
         </Link>
         <nav className="flex items-center gap-1" aria-label="主导航">
           {links.map((link) => {

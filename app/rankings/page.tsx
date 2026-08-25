@@ -1,20 +1,33 @@
 import { PageHeading, PageShell } from "@/components/PageShell";
 import { RankingsTable } from "@/components/RankingsTable";
-import { loadRankings } from "@/lib/data";
+import { buildCatalog } from "@/lib/model-catalog";
+import { loadPrices, loadRankings } from "@/lib/data";
 import { formatUpdatedAt } from "@/lib/format";
 
 export default async function RankingsPage() {
-  const snapshot = await loadRankings();
+  const [snapshot, pricesSnapshot] = await Promise.all([
+    loadRankings(),
+    loadPrices(),
+  ]);
   const items = snapshot?.items ?? [];
+  const catalog = buildCatalog(
+    pricesSnapshot?.items ?? [],
+    snapshot?.items ?? [],
+  );
   const meta = snapshot
-    ? `${snapshot.source} · 跑分 · ${formatUpdatedAt(snapshot.updatedAt)}`
+    ? `数据更新至 ${formatUpdatedAt(snapshot.updatedAt)}`
     : "暂无数据";
 
   return (
     <PageShell active="rankings">
-      <PageHeading title="排行" meta={meta} />
+      <PageHeading title="模型评测" meta={meta} />
       {items.length > 0 ? (
-        <RankingsTable items={items} />
+        <RankingsTable
+          items={items}
+          catalog={catalog}
+          updatedAt={snapshot?.updatedAt ?? ""}
+          source={snapshot?.source ?? "Artificial Analysis"}
+        />
       ) : (
         <p className="text-sm text-muted-foreground">
           暂无数据。可在项目目录运行{" "}

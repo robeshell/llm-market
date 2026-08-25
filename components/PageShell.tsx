@@ -1,26 +1,33 @@
 import { SiteHeader } from "@/components/SiteHeader";
+import { CompareProvider } from "@/components/CompareContext";
+import { CompareTray } from "@/components/CompareControls";
 
 export function PageShell({
   active,
+  showCompareTray = true,
   children,
 }: {
-  active?: "prices" | "rankings";
+  active?: "models" | "prices" | "rankings" | "popularity" | "custom-ranking";
+  showCompareTray?: boolean;
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-full">
-      <a href="#main" className="skip-link">
-        跳到内容
-      </a>
-      <SiteHeader active={active} />
-      <main
-        id="main"
-        className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10"
-        style={{ scrollMarginTop: "var(--header-height)" }}
-      >
-        {children}
-      </main>
-    </div>
+    <CompareProvider>
+      <div className="min-h-full site-app">
+        <a href="#main" className="skip-link">
+          跳到内容
+        </a>
+        <SiteHeader active={active} />
+        <main
+          id="main"
+          className="site-content mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10"
+          style={{ scrollMarginTop: "var(--header-height)" }}
+        >
+          {children}
+        </main>
+        {showCompareTray ? <CompareTray /> : null}
+      </div>
+    </CompareProvider>
   );
 }
 

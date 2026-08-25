@@ -1,35 +1,42 @@
-# llm-market
+# LLM 模型对比
 
-大模型 **价格** 与 **跑分排行** 对照站：数据来自 [Artificial Analysis](https://artificialanalysis.ai/)，静态站点可部署到 GitHub Pages，并用 Actions 定时刷新。
+大模型 **模型目录** 与 **模型评测** 对照站：数据来自 [Artificial Analysis](https://artificialanalysis.ai/)，静态站点可部署到 GitHub Pages，并用 Actions 定时刷新。
 
-- 价格：有跑分且有标价的模型，默认按综合分排序，支持 USD / CNY（¥）展示与列排序  
-- 排行：Intelligence Index 及 Coding / Agentic / GPQA / HLE / SciCode / Terminal / LCR（含指标说明）
+- 模型目录：默认展示精选模型，支持精选 / 主流 / 开源 / 全部视图、模型家族折叠、价格与场景标签
+- 模型评测：Intelligence Index 及 Coding / Agentic / GPQA / HLE / SciCode / Terminal / LCR
+- 使用排行：OpenRouter 近 7 天模型使用排行
+- 自定义榜单：拖拽模型、编辑等级并导出分享图片
 
 ## 本地运行
 
 ```bash
 npm install
-npm run fetch      # 抓取最新价格与排行 → data/*.json
+npm run fetch      # 抓取价格、评测与使用排行 → data/*.json
 npm run dev        # http://localhost:3000
 ```
 
 | 命令 | 说明 |
 |------|------|
-| `npm run fetch` | 同时更新价格 + 排行 |
+| `npm run fetch` | 同时更新价格 + 评测 + 使用排行 |
 | `npm run fetch:prices` | 仅价格 |
 | `npm run fetch:rankings` | 仅排行 |
+| `npm run fetch:popularity` | 仅使用排行 |
 | `npm run build` | 静态导出到 `out/`（GitHub Pages 同配置） |
 
 ## 数据说明
 
 | 页面 | 来源 | 内容 |
 |------|------|------|
-| `/prices` | Artificial Analysis | 输入/输出 `$/M tokens`、综合分、上下文 |
-| `/rankings` | Artificial Analysis | 综合与各项基准跑分 |
+| `/models` | Artificial Analysis | 模型目录：家族、价格、上下文、类型与能力标签 |
+| `/prices` | — | 兼容旧链接，自动跳转到 `/models` |
+| `/rankings` | Artificial Analysis | 模型评测：综合与各项基准跑分 |
+| `/compare` | 本地选择状态 + Artificial Analysis | 已选模型的价格、上下文与能力对比 |
+| `/popularity` | OpenRouter | 近 7 天模型使用排行 |
+| `/custom-ranking` | 本地浏览器状态 | 自定义等级榜单与 PNG 导出 |
 
 厂商 logo 使用 AA 公开资源：`https://artificialanalysis.ai/img/logos/...`
 
-快照文件：`data/prices.json`、`data/rankings.json`（构建时打进静态页）。
+快照文件：`data/prices.json`、`data/rankings.json`、`data/popularity.json`（构建时打进静态页）。
 
 ## GitHub Pages
 
@@ -50,7 +57,7 @@ npm run dev        # http://localhost:3000
 
 站点地址一般为：
 
-`https://<用户名>.github.io/llm-market/`
+`https://<用户名>.github.io/llm-model-comparison/`
 
 （本地开发不要设 `PAGES_BASE_PATH`；Actions 构建时会自动设为 `/仓库名`。）
 
@@ -81,7 +88,7 @@ on:
 本机也可用 cron（可选）：
 
 ```bash
-0 */6 * * * cd /path/to/llm-market && npm run fetch && git add data && git commit -m "chore: refresh data" && git push
+0 */6 * * * cd /path/to/llm-model-comparison && npm run fetch && git add data && git commit -m "chore: refresh data" && git push
 ```
 
 ## 技术栈

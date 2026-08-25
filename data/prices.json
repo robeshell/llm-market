@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T02:03:01.580Z",
+  "updatedAt": "2026-08-25T06:02:19.156Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -10,7 +10,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 63.0532452071291
+      "intelligenceIndex": 63.0532452071291,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "claude-opus-5-xhigh",
@@ -20,7 +23,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 62.52047429879
+      "intelligenceIndex": 62.52047429879,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "claude-fable-5",
@@ -30,7 +36,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 62.0726622017462
+      "intelligenceIndex": 62.0726622017462,
+      "isOpenWeights": false,
+      "releaseDate": "2026-06-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "claude-opus-5-high",
@@ -40,7 +49,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 61.4751191473465
+      "intelligenceIndex": 61.4751191473465,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-sol",
@@ -48,9 +60,12 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 60.9298701329203
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
+      "intelligenceIndex": 60.9298701329203,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "grok-4-6",
@@ -60,7 +75,23 @@
       "contextLength": 500000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 60.92297113115
+      "intelligenceIndex": 60.92297113115,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "grok-4-6-xhigh",
+      "name": "Grok 4.6 (xhigh)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 60.0135565827745,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
     },
     {
       "id": "kimi-k3",
@@ -70,7 +101,10 @@
       "contextLength": 1048576,
       "inputPerMillion": 3,
       "outputPerMillion": 15,
-      "intelligenceIndex": 59.6994671342592
+      "intelligenceIndex": 59.6994671342592,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-16",
+      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K3"
     },
     {
       "id": "glm-5-3",
@@ -80,7 +114,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.4,
       "outputPerMillion": 4.4,
-      "intelligenceIndex": 59.5134408119521
+      "intelligenceIndex": 59.5134408119521,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-18",
+      "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.3"
     },
     {
       "id": "gpt-5-6-sol-xhigh",
@@ -88,9 +125,25 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 59.0090363705536
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
+      "intelligenceIndex": 59.0090363705536,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "grok-4-6-medium",
+      "name": "Grok 4.6 (medium)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 59.0064109828411,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
     },
     {
       "id": "claude-opus-5-medium",
@@ -100,7 +153,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 58.6354597438038
+      "intelligenceIndex": 58.6354597438038,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-8-max",
@@ -110,7 +166,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 58.0774404479668
+      "intelligenceIndex": 58.0774404479668,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-03",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-8-2-4t-a95b",
@@ -120,7 +179,10 @@
       "contextLength": 983616,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 57.7043243271128
+      "intelligenceIndex": 57.7043243271128,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
     },
     {
       "id": "gpt-5-6-sol-high",
@@ -128,9 +190,12 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 57.3317210962224
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
+      "intelligenceIndex": 57.3317210962224,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "muse-spark-1-2",
@@ -140,7 +205,10 @@
       "contextLength": 1048576,
       "inputPerMillion": 1.25,
       "outputPerMillion": 4.25,
-      "intelligenceIndex": 56.7615911905642
+      "intelligenceIndex": 56.7615911905642,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-05",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-terra",
@@ -150,7 +218,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 56.5755675890213
+      "intelligenceIndex": 56.5755675890213,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemini-3-7-flash",
@@ -160,7 +231,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 56.0301180773699
+      "intelligenceIndex": 56.0301180773699,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-13",
+      "huggingFaceUrl": null
     },
     {
       "id": "grok-4-5",
@@ -170,7 +244,10 @@
       "contextLength": 500000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 55.7588993916902
+      "intelligenceIndex": 55.7588993916902,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-08",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-sol-medium",
@@ -178,9 +255,12 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 55.5729051710609
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
+      "intelligenceIndex": 55.5729051710609,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "claude-sonnet-5",
@@ -190,7 +270,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 55.261211717405
+      "intelligenceIndex": 55.261211717405,
+      "isOpenWeights": false,
+      "releaseDate": "2026-06-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemini-3-7-flash-medium",
@@ -200,7 +283,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 53.416679420117
+      "intelligenceIndex": 53.416679420117,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-13",
+      "huggingFaceUrl": null
     },
     {
       "id": "deepseek-v4-pro",
@@ -210,7 +296,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.32,
       "outputPerMillion": 3.96,
-      "intelligenceIndex": 53.1976849297815
+      "intelligenceIndex": 53.1976849297815,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-13",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
     },
     {
       "id": "gpt-5-6-terra-xhigh",
@@ -220,7 +309,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 52.7732451128074
+      "intelligenceIndex": 52.7732451128074,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "glm-5-2",
@@ -230,7 +322,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.4,
       "outputPerMillion": 4.4,
-      "intelligenceIndex": 52.6409563457385
+      "intelligenceIndex": 52.6409563457385,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-16",
+      "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.2"
     },
     {
       "id": "claude-opus-5-low",
@@ -240,7 +335,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 52.4569136808453
+      "intelligenceIndex": 52.4569136808453,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-luna",
@@ -250,17 +348,23 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 52.3180827840984
+      "intelligenceIndex": 52.3180827840984,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-8-27b",
-      "name": "Qwen3.8 27B",
+      "name": "Qwen3.8 27B (xhigh)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.42500000000000004,
-      "outputPerMillion": 3.1,
-      "intelligenceIndex": 52.0246606497206
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 52.0246606497206,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-14",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
       "id": "deepseek-v4-flash",
@@ -270,7 +374,23 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.44,
       "outputPerMillion": 1.32,
-      "intelligenceIndex": 51.7665776089032
+      "intelligenceIndex": 51.7665776089032,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-31",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "id": "grok-4-6-low",
+      "name": "Grok 4.6 (low)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 51.6795741754728,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemini-3-6-flash",
@@ -280,7 +400,23 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 51.5819376989529
+      "intelligenceIndex": 51.5819376989529,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-21",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "deepseek-v4-flash-vision",
+      "name": "DeepSeek V4 Flash Vision (max)",
+      "provider": "DeepSeek",
+      "creatorLogo": "deepseek_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.44,
+      "outputPerMillion": 1.32,
+      "intelligenceIndex": 51.4736425212072,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-21",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemini-3-7-flash-low",
@@ -290,7 +426,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 50.9422571779375
+      "intelligenceIndex": 50.9422571779375,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-13",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-sol-low",
@@ -298,9 +437,12 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 50.7315181713702
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
+      "intelligenceIndex": 50.7315181713702,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-terra-high",
@@ -310,7 +452,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 50.1131352273405
+      "intelligenceIndex": 50.1131352273405,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-luna-xhigh",
@@ -320,7 +465,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 50.0587027429536
+      "intelligenceIndex": 50.0587027429536,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "kimi-k3-low",
@@ -330,7 +478,10 @@
       "contextLength": 1048576,
       "inputPerMillion": 3,
       "outputPerMillion": 15,
-      "intelligenceIndex": 48.251492150768
+      "intelligenceIndex": 48.251492150768,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-16",
+      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K3"
     },
     {
       "id": "gemini-3-1-pro-preview",
@@ -340,7 +491,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 47.7383260259131
+      "intelligenceIndex": 47.7383260259131,
+      "isOpenWeights": false,
+      "releaseDate": "2026-02-19",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-luna-high",
@@ -350,7 +504,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 46.9604170473195
+      "intelligenceIndex": 46.9604170473195,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-terra-medium",
@@ -360,7 +517,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 46.7558953879266
+      "intelligenceIndex": 46.7558953879266,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemini-3-5-flash-medium",
@@ -370,7 +530,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.5,
       "outputPerMillion": 9,
-      "intelligenceIndex": 46.67250352634763
+      "intelligenceIndex": 46.67250352634763,
+      "isOpenWeights": false,
+      "releaseDate": "2026-05-19",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-3-codex",
@@ -380,7 +543,10 @@
       "contextLength": 400000,
       "inputPerMillion": 1.75,
       "outputPerMillion": 14,
-      "intelligenceIndex": 45.511743785809365
+      "intelligenceIndex": 45.511743785809365,
+      "isOpenWeights": false,
+      "releaseDate": "2026-02-05",
+      "huggingFaceUrl": null
     },
     {
       "id": "minimax-m3",
@@ -390,7 +556,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 45.3968506399702
+      "intelligenceIndex": 45.3968506399702,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-01",
+      "huggingFaceUrl": "https://huggingface.co/MiniMaxAI/MiniMax-M3"
     },
     {
       "id": "deepseek-v4-pro-0424",
@@ -400,7 +569,23 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
-      "intelligenceIndex": 45.2683460762151
+      "intelligenceIndex": 45.2683460762151,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-24",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    },
+    {
+      "id": "qwen3-8-27b-medium",
+      "name": "Qwen3.8 27B (medium)",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 44.4541866037653,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-14",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
       "id": "deepseek-v4-pro-0424-high",
@@ -410,7 +595,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
-      "intelligenceIndex": 43.7458091419318
+      "intelligenceIndex": 43.7458091419318,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-24",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
     {
       "id": "kimi-k2-7-code",
@@ -420,7 +608,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.95,
       "outputPerMillion": 4,
-      "intelligenceIndex": 43.0244715223736
+      "intelligenceIndex": 43.0244715223736,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-12",
+      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
     },
     {
       "id": "mimo-v2-5-pro",
@@ -430,7 +621,23 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
-      "intelligenceIndex": 42.8796821546836
+      "intelligenceIndex": 42.8796821546836,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
+    },
+    {
+      "id": "qwen3-8-27b-low",
+      "name": "Qwen3.8 27B (low)",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 42.8682424392917,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-14",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
       "id": "claude-sonnet-5-non-reasoning",
@@ -440,7 +647,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 42.5707970639646
+      "intelligenceIndex": 42.5707970639646,
+      "isOpenWeights": false,
+      "releaseDate": "2026-06-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "inkling",
@@ -450,7 +660,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1,
       "outputPerMillion": 4.05,
-      "intelligenceIndex": 42.2947721285326
+      "intelligenceIndex": 42.2947721285326,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-15",
+      "huggingFaceUrl": "https://huggingface.co/thinkingmachines/Inkling"
     },
     {
       "id": "hy3",
@@ -460,7 +673,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.136,
       "outputPerMillion": 0.554,
-      "intelligenceIndex": 42.2134908724756
+      "intelligenceIndex": 42.2134908724756,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-06",
+      "huggingFaceUrl": "https://huggingface.co/tencent/Hy3"
     },
     {
       "id": "gpt-5-6-sol-non-reasoning",
@@ -468,9 +684,12 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 41.8779730605066
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
+      "intelligenceIndex": 41.8779730605066,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "nex-n2-pro",
@@ -480,7 +699,10 @@
       "contextLength": 262000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 41.743198267132
+      "intelligenceIndex": 41.743198267132,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-02",
+      "huggingFaceUrl": "https://huggingface.co/nex-agi/Nex-N2-Pro"
     },
     {
       "id": "solar-pro4",
@@ -490,7 +712,10 @@
       "contextLength": 512000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 41.637324367296
+      "intelligenceIndex": 41.637324367296,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-06",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-terra-low",
@@ -500,7 +725,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 41.2961239729374
+      "intelligenceIndex": 41.2961239729374,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "inkling-small",
@@ -510,7 +738,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 41.1806598798293
+      "intelligenceIndex": 41.1806598798293,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-30",
+      "huggingFaceUrl": "https://huggingface.co/thinkingmachines/Inkling-Small"
     },
     {
       "id": "agnes-2-5-pro-alpha",
@@ -520,7 +751,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.45,
       "outputPerMillion": 0.9,
-      "intelligenceIndex": 39.7073049186574
+      "intelligenceIndex": 39.7073049186574,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-7-plus",
@@ -530,7 +764,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.4,
       "outputPerMillion": 1.6,
-      "intelligenceIndex": 39.3745992994168
+      "intelligenceIndex": 39.3745992994168,
+      "isOpenWeights": false,
+      "releaseDate": "2026-06-01",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-luna-medium",
@@ -540,7 +777,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 38.9050733396755
+      "intelligenceIndex": 38.9050733396755,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "nvidia-nemotron-3-ultra-550b-a55b",
@@ -550,7 +790,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 2.75,
-      "intelligenceIndex": 38.3185469149774
+      "intelligenceIndex": 38.3185469149774,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-04",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
     },
     {
       "id": "mimo-v2-5-0424",
@@ -560,7 +803,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.14,
       "outputPerMillion": 0.28,
-      "intelligenceIndex": 38.0433645155222
+      "intelligenceIndex": 38.0433645155222,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
     },
     {
       "id": "ling-3-0-flash",
@@ -570,7 +816,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.075,
       "outputPerMillion": 0.22,
-      "intelligenceIndex": 37.820825176113
+      "intelligenceIndex": 37.820825176113,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-04",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-6-27b",
@@ -580,7 +829,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 3.6,
-      "intelligenceIndex": 37.7024638948414
+      "intelligenceIndex": 37.7024638948414,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.6-27B"
     },
     {
       "id": "gemini-3-5-flash-lite",
@@ -590,7 +842,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 37.4387063722681
+      "intelligenceIndex": 37.4387063722681,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-21",
+      "huggingFaceUrl": null
     },
     {
       "id": "grok-4-3-medium",
@@ -600,7 +855,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 36.9152
+      "intelligenceIndex": 36.9152,
+      "isOpenWeights": false,
+      "releaseDate": "2026-04-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "grok-4-3-low",
@@ -610,7 +868,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 36.32810061704343
+      "intelligenceIndex": 36.32810061704343,
+      "isOpenWeights": false,
+      "releaseDate": "2026-04-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemini-3-5-flash-minimal",
@@ -620,7 +881,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.5,
       "outputPerMillion": 9,
-      "intelligenceIndex": 35.78199417942195
+      "intelligenceIndex": 35.78199417942195,
+      "isOpenWeights": false,
+      "releaseDate": "2026-05-19",
+      "huggingFaceUrl": null
     },
     {
       "id": "claude-sonnet-4-6-non-reasoning-low-effort",
@@ -630,7 +894,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 3,
       "outputPerMillion": 15,
-      "intelligenceIndex": 35.10823790992147
+      "intelligenceIndex": 35.10823790992147,
+      "isOpenWeights": false,
+      "releaseDate": "2026-02-17",
+      "huggingFaceUrl": null
     },
     {
       "id": "muse-glimmer",
@@ -640,7 +907,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.32499999999999996,
       "outputPerMillion": 1.35,
-      "intelligenceIndex": 35.0641823105374
+      "intelligenceIndex": 35.0641823105374,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-10",
+      "huggingFaceUrl": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
     },
     {
       "id": "glm-5-2-non-reasoning",
@@ -650,7 +920,23 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.4,
       "outputPerMillion": 4.4,
-      "intelligenceIndex": 34.8147227827453
+      "intelligenceIndex": 34.8147227827453,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-16",
+      "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.2"
+    },
+    {
+      "id": "qwen3-8-27b-non-reasoning",
+      "name": "Qwen3.8 27B",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 34.7379165622855,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-14",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
       "id": "gpt-5-6-terra-non-reasoning",
@@ -660,7 +946,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 34.6188674546024
+      "intelligenceIndex": 34.6188674546024,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-5-397b-a17b",
@@ -670,7 +959,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 3.6,
-      "intelligenceIndex": 34.2621174573549
+      "intelligenceIndex": 34.2621174573549,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-16",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
     },
     {
       "id": "g9v3-39a5b",
@@ -680,7 +972,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 34.0208950777536
+      "intelligenceIndex": 34.0208950777536,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-20",
+      "huggingFaceUrl": "https://huggingface.co/ai9stars/G9v3-39A5B"
     },
     {
       "id": "longcat-2-0",
@@ -690,7 +985,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 2.95,
-      "intelligenceIndex": 33.9692584853255
+      "intelligenceIndex": 33.9692584853255,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-29",
+      "huggingFaceUrl": "https://huggingface.co/meituan-longcat/LongCat-2.0"
     },
     {
       "id": "gpt-5-6-luna-low",
@@ -700,7 +998,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 33.8545605251116
+      "intelligenceIndex": 33.8545605251116,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "kat-coder-pro-v2",
@@ -710,7 +1011,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 33.7297083092471
+      "intelligenceIndex": 33.7297083092471,
+      "isOpenWeights": false,
+      "releaseDate": "2026-03-27",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-5-122b-a10b",
@@ -720,7 +1024,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.4,
       "outputPerMillion": 3.2,
-      "intelligenceIndex": 32.8466437377894
+      "intelligenceIndex": 32.8466437377894,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-24",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B"
     },
     {
       "id": "qwen3-5-397b-a17b-non-reasoning",
@@ -730,7 +1037,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 3.6,
-      "intelligenceIndex": 32.73265105863069
+      "intelligenceIndex": 32.73265105863069,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-16",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
     },
     {
       "id": "qwen3-6-35b-a3b",
@@ -740,7 +1050,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.375,
       "outputPerMillion": 2.25,
-      "intelligenceIndex": 32.1290714769579
+      "intelligenceIndex": 32.1290714769579,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-16",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
     },
     {
       "id": "deepseek-v4-pro-0424-non-reasoning",
@@ -750,7 +1063,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
-      "intelligenceIndex": 31.941819081694526
+      "intelligenceIndex": 31.941819081694526,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-24",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
     {
       "id": "ring-2-6-1t",
@@ -760,7 +1076,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 31.6633644037604
+      "intelligenceIndex": 31.6633644037604,
+      "isOpenWeights": true,
+      "releaseDate": "2026-05-08",
+      "huggingFaceUrl": "https://huggingface.co/inclusionAI/Ring-2.6-1T"
     },
     {
       "id": "qwen3-5-omni-plus",
@@ -770,7 +1089,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.4,
       "outputPerMillion": 4.8,
-      "intelligenceIndex": 31.341786896948378
+      "intelligenceIndex": 31.341786896948378,
+      "isOpenWeights": false,
+      "releaseDate": "2026-03-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-6-27b-non-reasoning",
@@ -780,7 +1102,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 3.6,
-      "intelligenceIndex": 31.3256219686586
+      "intelligenceIndex": 31.3256219686586,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.6-27B"
     },
     {
       "id": "o3",
@@ -790,7 +1115,10 @@
       "contextLength": 200000,
       "inputPerMillion": 2,
       "outputPerMillion": 8,
-      "intelligenceIndex": 31.095582593289777
+      "intelligenceIndex": 31.095582593289777,
+      "isOpenWeights": false,
+      "releaseDate": "2025-04-16",
+      "huggingFaceUrl": null
     },
     {
       "id": "step-3-7-flash",
@@ -800,7 +1128,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.15,
-      "intelligenceIndex": 30.8992089144321
+      "intelligenceIndex": 30.8992089144321,
+      "isOpenWeights": true,
+      "releaseDate": "2026-05-29",
+      "huggingFaceUrl": "https://huggingface.co/stepfun-ai/Step-3.7-Flash"
     },
     {
       "id": "mistral-medium-3-5",
@@ -810,7 +1141,10 @@
       "contextLength": 256000,
       "inputPerMillion": 1.5,
       "outputPerMillion": 7.5,
-      "intelligenceIndex": 30.3922256057425
+      "intelligenceIndex": 30.3922256057425,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-29",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
     },
     {
       "id": "claude-4-5-haiku-reasoning",
@@ -820,7 +1154,10 @@
       "contextLength": 200000,
       "inputPerMillion": 1,
       "outputPerMillion": 5,
-      "intelligenceIndex": 29.8919353345764
+      "intelligenceIndex": 29.8919353345764,
+      "isOpenWeights": false,
+      "releaseDate": "2025-10-15",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemma-4-31b",
@@ -830,7 +1167,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 29.6949678165957
+      "intelligenceIndex": 29.6949678165957,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-02",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-31B-it"
     },
     {
       "id": "deepseek-v4-flash-non-reasoning",
@@ -840,7 +1180,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.0938,
       "outputPerMillion": 0.195,
-      "intelligenceIndex": 29.277968146187444
+      "intelligenceIndex": 29.277968146187444,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-24",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
     },
     {
       "id": "gpt-5-5-instant-06-26",
@@ -850,7 +1193,10 @@
       "contextLength": 400000,
       "inputPerMillion": 5,
       "outputPerMillion": 30,
-      "intelligenceIndex": 29.2327786347204
+      "intelligenceIndex": 29.2327786347204,
+      "isOpenWeights": false,
+      "releaseDate": "2026-06-25",
+      "huggingFaceUrl": null
     },
     {
       "id": "mimo-v2-5-pro-non-reasoning",
@@ -860,7 +1206,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
-      "intelligenceIndex": 28.44901019893985
+      "intelligenceIndex": 28.44901019893985,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
     },
     {
       "id": "qwen3-5-122b-a10b-non-reasoning",
@@ -870,7 +1219,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.4,
       "outputPerMillion": 3.2,
-      "intelligenceIndex": 28.1821800183865
+      "intelligenceIndex": 28.1821800183865,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-24",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B"
     },
     {
       "id": "gpt-5-6-luna-non-reasoning",
@@ -880,7 +1232,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 26.8448952225882
+      "intelligenceIndex": 26.8448952225882,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
     },
     {
       "id": "gemma-4-26b-a4b",
@@ -890,7 +1245,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.115,
       "outputPerMillion": 0.37,
-      "intelligenceIndex": 26.0656023232983
+      "intelligenceIndex": 26.0656023232983,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-02",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-26B-A4B-it"
     },
     {
       "id": "nvidia-nemotron-3-super-120b-a12b",
@@ -900,7 +1258,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.8,
-      "intelligenceIndex": 25.6684845978586
+      "intelligenceIndex": 25.6684845978586,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-11",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
     },
     {
       "id": "grok-4-3-non-reasoning",
@@ -910,7 +1271,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 25.0069780605367
+      "intelligenceIndex": 25.0069780605367,
+      "isOpenWeights": false,
+      "releaseDate": "2026-04-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-6-35b-a3b-non-reasoning",
@@ -920,7 +1284,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.375,
       "outputPerMillion": 2.25,
-      "intelligenceIndex": 24.5542164054089
+      "intelligenceIndex": 24.5542164054089,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-16",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
     },
     {
       "id": "ling-3-0-tiny",
@@ -930,7 +1297,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 24.5183646727292
+      "intelligenceIndex": 24.5183646727292,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-06",
+      "huggingFaceUrl": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-int4"
     },
     {
       "id": "qwen3-5-35b-a3b-non-reasoning",
@@ -940,7 +1310,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.25,
       "outputPerMillion": 2,
-      "intelligenceIndex": 24.3219834008263
+      "intelligenceIndex": 24.3219834008263,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-24",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B"
     },
     {
       "id": "claude-4-5-haiku",
@@ -950,7 +1323,10 @@
       "contextLength": 200000,
       "inputPerMillion": 1,
       "outputPerMillion": 5,
-      "intelligenceIndex": 24.14166520585035
+      "intelligenceIndex": 24.14166520585035,
+      "isOpenWeights": false,
+      "releaseDate": "2025-10-15",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-oss-120b",
@@ -960,7 +1336,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 24.126439151808
+      "intelligenceIndex": 24.126439151808,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-05",
+      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-120b"
     },
     {
       "id": "nemotron-3-5-lightning",
@@ -970,7 +1349,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.07,
       "outputPerMillion": 0.22,
-      "intelligenceIndex": 23.632637599256
+      "intelligenceIndex": 23.632637599256,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-11",
+      "huggingFaceUrl": null
     },
     {
       "id": "command-a-plus",
@@ -980,7 +1362,10 @@
       "contextLength": 192000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 22.7702225702102
+      "intelligenceIndex": 22.7702225702102,
+      "isOpenWeights": true,
+      "releaseDate": "2026-05-20",
+      "huggingFaceUrl": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16"
     },
     {
       "id": "gemma-4-31b-non-reasoning",
@@ -990,7 +1375,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.4,
-      "intelligenceIndex": 22.2511464625226
+      "intelligenceIndex": 22.2511464625226,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-02",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-31B"
     },
     {
       "id": "gemma-4-12b",
@@ -1000,7 +1388,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.3,
-      "intelligenceIndex": 22.163972838284074
+      "intelligenceIndex": 22.163972838284074,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-03",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-12B-it/tree/main"
     },
     {
       "id": "nova-2-0-pro-reasoning-medium",
@@ -1010,7 +1401,10 @@
       "contextLength": 256000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 10,
-      "intelligenceIndex": 22.115567545552175
+      "intelligenceIndex": 22.115567545552175,
+      "isOpenWeights": false,
+      "releaseDate": "2025-11-27",
+      "huggingFaceUrl": null
     },
     {
       "id": "mercury-2",
@@ -1020,7 +1414,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.25,
       "outputPerMillion": 0.75,
-      "intelligenceIndex": 21.896132938186
+      "intelligenceIndex": 21.896132938186,
+      "isOpenWeights": false,
+      "releaseDate": "2026-02-20",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-5-9b",
@@ -1030,7 +1427,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.135,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 21.7904240361763
+      "intelligenceIndex": 21.7904240361763,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-02",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
     },
     {
       "id": "qwen3-coder-next",
@@ -1040,7 +1440,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.35,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 21.2935774648729
+      "intelligenceIndex": 21.2935774648729,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-03",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
     },
     {
       "id": "nova-2-0-omni-reasoning-medium",
@@ -1050,7 +1453,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 21.263700775865615
+      "intelligenceIndex": 21.263700775865615,
+      "isOpenWeights": false,
+      "releaseDate": "2025-11-26",
+      "huggingFaceUrl": null
     },
     {
       "id": "apriel-v1-6-15b-thinker",
@@ -1060,7 +1466,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 20.846614915757137
+      "intelligenceIndex": 20.846614915757137,
+      "isOpenWeights": true,
+      "releaseDate": "2025-11-25",
+      "huggingFaceUrl": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker"
     },
     {
       "id": "nova-2-0-lite-reasoning",
@@ -1070,7 +1479,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 20.79985
+      "intelligenceIndex": 20.79985,
+      "isOpenWeights": false,
+      "releaseDate": "2025-10-29",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-5-9b-non-reasoning",
@@ -1080,7 +1492,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.17,
       "outputPerMillion": 0.25,
-      "intelligenceIndex": 20.614249864885874
+      "intelligenceIndex": 20.614249864885874,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-02",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
     },
     {
       "id": "gemma-4-26b-a4b-non-reasoning",
@@ -1090,7 +1505,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.13,
       "outputPerMillion": 0.4,
-      "intelligenceIndex": 20.380067926751384
+      "intelligenceIndex": 20.380067926751384,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-02",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-26B-A4B-it"
     },
     {
       "id": "qwen3-5-4b",
@@ -1100,7 +1518,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.03,
       "outputPerMillion": 0.15,
-      "intelligenceIndex": 20.370436153891156
+      "intelligenceIndex": 20.370436153891156,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-02",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
     },
     {
       "id": "north-mini-code",
@@ -1110,7 +1531,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 20.1690287982621
+      "intelligenceIndex": 20.1690287982621,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-09",
+      "huggingFaceUrl": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
     },
     {
       "id": "nova-2-0-pro-reasoning-low",
@@ -1120,7 +1544,10 @@
       "contextLength": 256000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 10,
-      "intelligenceIndex": 19.76015
+      "intelligenceIndex": 19.76015,
+      "isOpenWeights": false,
+      "releaseDate": "2025-11-27",
+      "huggingFaceUrl": null
     },
     {
       "id": "mistral-small-4",
@@ -1130,7 +1557,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 19.7078460939556
+      "intelligenceIndex": 19.7078460939556,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-16",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
     },
     {
       "id": "devstral-2",
@@ -1140,7 +1570,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 19.2418392238526
+      "intelligenceIndex": 19.2418392238526,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-09",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
     },
     {
       "id": "nova-2-0-lite-reasoning-medium",
@@ -1150,7 +1583,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 19.2403
+      "intelligenceIndex": 19.2403,
+      "isOpenWeights": false,
+      "releaseDate": "2025-10-29",
+      "huggingFaceUrl": null
     },
     {
       "id": "qwen3-5-omni-flash",
@@ -1160,7 +1596,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.8,
-      "intelligenceIndex": 19.225339550288876
+      "intelligenceIndex": 19.225339550288876,
+      "isOpenWeights": false,
+      "releaseDate": "2026-03-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "trinity-large-thinking",
@@ -1170,17 +1609,23 @@
       "contextLength": 512000,
       "inputPerMillion": 0.235,
       "outputPerMillion": 0.875,
-      "intelligenceIndex": 18.657997906883
+      "intelligenceIndex": 18.657997906883,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-01",
+      "huggingFaceUrl": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
     },
     {
-      "id": "magistral-medium-2509",
-      "name": "Magistral Medium 1.2",
-      "provider": "Mistral",
-      "creatorLogo": "mistral_small.png",
-      "contextLength": 128000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 5,
-      "intelligenceIndex": 18.0471212082495
+      "id": "hypernova-60b",
+      "name": "HyperNova 60B 2605",
+      "provider": "Multiverse Computing",
+      "creatorLogo": "multiversecomputing_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.04,
+      "outputPerMillion": 0.14,
+      "intelligenceIndex": 18.3173546297536,
+      "isOpenWeights": true,
+      "releaseDate": "2026-05-26",
+      "huggingFaceUrl": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605"
     },
     {
       "id": "nova-2-0-lite-reasoning-low",
@@ -1190,7 +1635,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 18.007713038446767
+      "intelligenceIndex": 18.007713038446767,
+      "isOpenWeights": false,
+      "releaseDate": "2025-10-29",
+      "huggingFaceUrl": null
     },
     {
       "id": "devstral-small-2",
@@ -1200,7 +1648,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 17.7167746402175
+      "intelligenceIndex": 17.7167746402175,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-09",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
     },
     {
       "id": "qwen3-next-80b-a3b-reasoning",
@@ -1210,7 +1661,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.15,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 16.8671709898964
+      "intelligenceIndex": 16.8671709898964,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-11",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
     },
     {
       "id": "nova-2-0-omni-reasoning-low",
@@ -1220,7 +1674,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 16.707575391459063
+      "intelligenceIndex": 16.707575391459063,
+      "isOpenWeights": false,
+      "releaseDate": "2025-11-26",
+      "huggingFaceUrl": null
     },
     {
       "id": "g9v3-3b",
@@ -1230,7 +1687,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 16.1802541415755
+      "intelligenceIndex": 16.1802541415755,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-23",
+      "huggingFaceUrl": "https://huggingface.co/ai9stars/G9v3-3B"
     },
     {
       "id": "qwen3-5-4b-non-reasoning",
@@ -1240,7 +1700,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.03,
       "outputPerMillion": 0.15,
-      "intelligenceIndex": 16.123062954483125
+      "intelligenceIndex": 16.123062954483125,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-02",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
     },
     {
       "id": "mistral-large-3",
@@ -1250,7 +1713,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 1.5,
-      "intelligenceIndex": 15.9191533466727
+      "intelligenceIndex": 15.9191533466727,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-02",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
     },
     {
       "id": "gpt-oss-20b",
@@ -1260,7 +1726,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.060000000000000005,
       "outputPerMillion": 0.19,
-      "intelligenceIndex": 15.2251599944346
+      "intelligenceIndex": 15.2251599944346,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-05",
+      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
     },
     {
       "id": "nemotron-3-nano-omni-30b-a3b",
@@ -1270,7 +1739,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.075,
       "outputPerMillion": 0.3,
-      "intelligenceIndex": 15.006841515636083
+      "intelligenceIndex": 15.006841515636083,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-29",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
     },
     {
       "id": "gpt-oss-120b-low",
@@ -1279,8 +1751,11 @@
       "creatorLogo": "openai_small.svg",
       "contextLength": 131072,
       "inputPerMillion": 0.15,
-      "outputPerMillion": 0.595,
-      "intelligenceIndex": 14.9256339397626
+      "outputPerMillion": 0.59,
+      "intelligenceIndex": 14.9256339397626,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-05",
+      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-120b"
     },
     {
       "id": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
@@ -1290,7 +1765,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 14.537976286548
+      "intelligenceIndex": 14.537976286548,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-15",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
     },
     {
       "id": "solar-pro-3",
@@ -1300,7 +1778,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 14.4932929091303
+      "intelligenceIndex": 14.4932929091303,
+      "isOpenWeights": false,
+      "releaseDate": "2026-04-06",
+      "huggingFaceUrl": null
     },
     {
       "id": "llama-4-maverick",
@@ -1310,7 +1791,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.26,
       "outputPerMillion": 0.9099999999999999,
-      "intelligenceIndex": 14.4765801754776
+      "intelligenceIndex": 14.4765801754776,
+      "isOpenWeights": true,
+      "releaseDate": "2025-04-05",
+      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
     },
     {
       "id": "nova-2-0-pro",
@@ -1320,7 +1804,10 @@
       "contextLength": 256000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 10,
-      "intelligenceIndex": 14.41165566200852
+      "intelligenceIndex": 14.41165566200852,
+      "isOpenWeights": false,
+      "releaseDate": "2025-11-27",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-oss-20b-low",
@@ -1330,7 +1817,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.07,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 14.399093772025296
+      "intelligenceIndex": 14.399093772025296,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-05",
+      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
     },
     {
       "id": "qwen3-next-80b-a3b-instruct",
@@ -1340,7 +1830,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.15,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 13.754401655544385
+      "intelligenceIndex": 13.754401655544385,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-11",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
     },
     {
       "id": "gemma-4-12b-non-reasoning",
@@ -1350,7 +1843,10 @@
       "contextLength": 262144,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.3,
-      "intelligenceIndex": 13.195003760507658
+      "intelligenceIndex": 13.195003760507658,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-03",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-12B-it"
     },
     {
       "id": "nova-premier",
@@ -1360,7 +1856,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 2.5,
       "outputPerMillion": 12.5,
-      "intelligenceIndex": 12.71806623726513
+      "intelligenceIndex": 12.71806623726513,
+      "isOpenWeights": false,
+      "releaseDate": "2025-04-30",
+      "huggingFaceUrl": null
     },
     {
       "id": "llama-nemotron-super-49b-v1-5-reasoning",
@@ -1370,7 +1869,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.4,
       "outputPerMillion": 0.4,
-      "intelligenceIndex": 12.40128714371672
+      "intelligenceIndex": 12.40128714371672,
+      "isOpenWeights": true,
+      "releaseDate": "2025-07-25",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"
     },
     {
       "id": "celeris-1",
@@ -1380,7 +1882,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.7,
-      "intelligenceIndex": 12.3530161840426
+      "intelligenceIndex": 12.3530161840426,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
     },
     {
       "id": "mistral-small-4-non-reasoning",
@@ -1390,7 +1895,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 12.34783519434287
+      "intelligenceIndex": 12.34783519434287,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-16",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
     },
     {
       "id": "gemma-4-e4b",
@@ -1400,7 +1908,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.02,
       "outputPerMillion": 0.1,
-      "intelligenceIndex": 12.181335187329356
+      "intelligenceIndex": 12.181335187329356,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-03",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E4B-it"
     },
     {
       "id": "sarvam-105b",
@@ -1410,7 +1921,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.042,
       "outputPerMillion": 0.17,
-      "intelligenceIndex": 11.904615067898042
+      "intelligenceIndex": 11.904615067898042,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-06",
+      "huggingFaceUrl": "https://huggingface.co/sarvamai/sarvam-105b"
     },
     {
       "id": "nova-2-0-lite",
@@ -1420,7 +1934,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 11.783639029100605
+      "intelligenceIndex": 11.783639029100605,
+      "isOpenWeights": false,
+      "releaseDate": "2025-10-29",
+      "huggingFaceUrl": null
     },
     {
       "id": "magistral-small-2509",
@@ -1430,7 +1947,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 1.5,
-      "intelligenceIndex": 11.4605343038176
+      "intelligenceIndex": 11.4605343038176,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-17",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Magistral-Small-2509"
     },
     {
       "id": "ministral-3-14b",
@@ -1440,7 +1960,23 @@
       "contextLength": 256000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 11.2430177720022
+      "intelligenceIndex": 11.2430177720022,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-02",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512"
+    },
+    {
+      "id": "lfm2-5-2-6b",
+      "name": "LFM2.5-2.6B",
+      "provider": "Liquid AI",
+      "creatorLogo": "liquidai_small.svg",
+      "contextLength": 128000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 10.9870554965071,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-04",
+      "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
     },
     {
       "id": "nova-2-0-omni",
@@ -1450,7 +1986,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 2.5,
-      "intelligenceIndex": 10.435683117886146
+      "intelligenceIndex": 10.435683117886146,
+      "isOpenWeights": false,
+      "releaseDate": "2025-11-26",
+      "huggingFaceUrl": null
     },
     {
       "id": "llama-4-scout",
@@ -1460,7 +1999,10 @@
       "contextLength": 10000000,
       "inputPerMillion": 0.18,
       "outputPerMillion": 0.66,
-      "intelligenceIndex": 10.2562963744468
+      "intelligenceIndex": 10.2562963744468,
+      "isOpenWeights": true,
+      "releaseDate": "2025-04-05",
+      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
     },
     {
       "id": "hermes-4-llama-3-1-70b-reasoning",
@@ -1470,7 +2012,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.13,
       "outputPerMillion": 0.4,
-      "intelligenceIndex": 9.851683191903687
+      "intelligenceIndex": 9.851683191903687,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-27",
+      "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-70B"
     },
     {
       "id": "qwen3-omni-30b-a3b-reasoning",
@@ -1480,7 +2025,10 @@
       "contextLength": 65536,
       "inputPerMillion": 0.25,
       "outputPerMillion": 0.97,
-      "intelligenceIndex": 9.50022159824687
+      "intelligenceIndex": 9.50022159824687,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-22",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking"
     },
     {
       "id": "llama-3-3-instruct-70b",
@@ -1490,7 +2038,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.655,
       "outputPerMillion": 0.72,
-      "intelligenceIndex": 9.26237834279053
+      "intelligenceIndex": 9.26237834279053,
+      "isOpenWeights": true,
+      "releaseDate": "2024-12-06",
+      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
     },
     {
       "id": "ministral-3-8b",
@@ -1500,7 +2051,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.15,
-      "intelligenceIndex": 8.97359592754602
+      "intelligenceIndex": 8.97359592754602,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-02",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512"
     },
     {
       "id": "llama-3-1-nemotron-ultra-253b-v1-reasoning",
@@ -1510,7 +2064,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.6,
       "outputPerMillion": 1.8,
-      "intelligenceIndex": 8.924474751850626
+      "intelligenceIndex": 8.924474751850626,
+      "isOpenWeights": true,
+      "releaseDate": "2025-04-07",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1"
     },
     {
       "id": "ernie-4-5-300b-a47b",
@@ -1520,7 +2077,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.28,
       "outputPerMillion": 1.1,
-      "intelligenceIndex": 8.867066671698169
+      "intelligenceIndex": 8.867066671698169,
+      "isOpenWeights": true,
+      "releaseDate": "2025-06-30",
+      "huggingFaceUrl": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Paddle"
     },
     {
       "id": "hermes-4-llama-3-1-405b-reasoning",
@@ -1530,7 +2090,10 @@
       "contextLength": 128000,
       "inputPerMillion": 1,
       "outputPerMillion": 3,
-      "intelligenceIndex": 8.8433
+      "intelligenceIndex": 8.8433,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-27",
+      "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-405B"
     },
     {
       "id": "nvidia-nemotron-nano-12b-v2-vl-reasoning",
@@ -1540,7 +2103,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 8.800702245872152
+      "intelligenceIndex": 8.800702245872152,
+      "isOpenWeights": true,
+      "releaseDate": "2025-10-28",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
     },
     {
       "id": "gemma-4-e4b-non-reasoning",
@@ -1550,7 +2116,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.02,
       "outputPerMillion": 0.1,
-      "intelligenceIndex": 8.749733093630631
+      "intelligenceIndex": 8.749733093630631,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-03",
+      "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E4B-it"
     },
     {
       "id": "nvidia-nemotron-nano-9b-v2-reasoning",
@@ -1560,7 +2129,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.04,
       "outputPerMillion": 0.16,
-      "intelligenceIndex": 8.677229089853508
+      "intelligenceIndex": 8.677229089853508,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-18",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
     },
     {
       "id": "hermes-4-llama-3-1-405b",
@@ -1570,7 +2142,10 @@
       "contextLength": 128000,
       "inputPerMillion": 1,
       "outputPerMillion": 3,
-      "intelligenceIndex": 8.63536
+      "intelligenceIndex": 8.63536,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-27",
+      "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-405B"
     },
     {
       "id": "llama-nemotron-super-49b-v1-5",
@@ -1580,7 +2155,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.4,
       "outputPerMillion": 0.4,
-      "intelligenceIndex": 8.514358395733872
+      "intelligenceIndex": 8.514358395733872,
+      "isOpenWeights": true,
+      "releaseDate": "2025-07-25",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"
     },
     {
       "id": "lfm2-5-8b-a1b",
@@ -1590,7 +2168,10 @@
       "contextLength": 32768,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 8.13668573449005
+      "intelligenceIndex": 8.13668573449005,
+      "isOpenWeights": true,
+      "releaseDate": "2026-05-28",
+      "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
     },
     {
       "id": "ring-flash-2-0",
@@ -1600,7 +2181,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.14,
       "outputPerMillion": 0.57,
-      "intelligenceIndex": 7.974024233002205
+      "intelligenceIndex": 7.974024233002205,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-19",
+      "huggingFaceUrl": "https://huggingface.co/inclusionAI/Ring-flash-2.0"
     },
     {
       "id": "olmo-3-1-32b-think",
@@ -1610,7 +2194,10 @@
       "contextLength": 65500,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 7.896855389655699
+      "intelligenceIndex": 7.896855389655699,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-12",
+      "huggingFaceUrl": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
     },
     {
       "id": "command-a",
@@ -1620,7 +2207,10 @@
       "contextLength": 256000,
       "inputPerMillion": 2.5,
       "outputPerMillion": 10,
-      "intelligenceIndex": 7.463435641463724
+      "intelligenceIndex": 7.463435641463724,
+      "isOpenWeights": true,
+      "releaseDate": "2025-03-13",
+      "huggingFaceUrl": "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025"
     },
     {
       "id": "llama-3-1-nemotron-instruct-70b",
@@ -1630,7 +2220,10 @@
       "contextLength": 128000,
       "inputPerMillion": 1.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 7.425410629950453
+      "intelligenceIndex": 7.425410629950453,
+      "isOpenWeights": true,
+      "releaseDate": "2024-10-15",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"
     },
     {
       "id": "nvidia-nemotron-3-nano-30b-a3b",
@@ -1640,7 +2233,10 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 7.170056355327669
+      "intelligenceIndex": 7.170056355327669,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-15",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
     },
     {
       "id": "nvidia-nemotron-nano-9b-v2",
@@ -1650,7 +2246,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.195,
-      "intelligenceIndex": 7.160086111849902
+      "intelligenceIndex": 7.160086111849902,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-18",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
     },
     {
       "id": "ministral-3-3b",
@@ -1660,7 +2259,10 @@
       "contextLength": 256000,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.1,
-      "intelligenceIndex": 7.07375743219686
+      "intelligenceIndex": 7.07375743219686,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-02",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512"
     },
     {
       "id": "hermes-4-llama-3-1-70b",
@@ -1670,7 +2272,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.13,
       "outputPerMillion": 0.4,
-      "intelligenceIndex": 6.657424882679896
+      "intelligenceIndex": 6.657424882679896,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-27",
+      "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-70B"
     },
     {
       "id": "granite-4-1-8b",
@@ -1680,7 +2285,10 @@
       "contextLength": 131072,
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.1,
-      "intelligenceIndex": 6.420896217941189
+      "intelligenceIndex": 6.420896217941189,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-29",
+      "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.1-8b"
     },
     {
       "id": "sarvam-30b",
@@ -1690,7 +2298,10 @@
       "contextLength": 65536,
       "inputPerMillion": 0.026,
       "outputPerMillion": 0.11,
-      "intelligenceIndex": 6.386709663180205
+      "intelligenceIndex": 6.386709663180205,
+      "isOpenWeights": true,
+      "releaseDate": "2026-03-06",
+      "huggingFaceUrl": "https://huggingface.co/sarvamai/sarvam-30b"
     },
     {
       "id": "phi-4-mini",
@@ -1700,7 +2311,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 5.739013435529571
+      "intelligenceIndex": 5.739013435529571,
+      "isOpenWeights": true,
+      "releaseDate": "2024-02-26",
+      "huggingFaceUrl": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
     },
     {
       "id": "granite-4-0-h-small",
@@ -1710,7 +2324,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.06,
       "outputPerMillion": 0.25,
-      "intelligenceIndex": 4.930850226770671
+      "intelligenceIndex": 4.930850226770671,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-22",
+      "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-h-small"
     },
     {
       "id": "qwen3-omni-30b-a3b-instruct",
@@ -1720,7 +2337,10 @@
       "contextLength": 65536,
       "inputPerMillion": 0.25,
       "outputPerMillion": 0.97,
-      "intelligenceIndex": 4.803236354052263
+      "intelligenceIndex": 4.803236354052263,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-22",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct"
     },
     {
       "id": "phi-4",
@@ -1730,7 +2350,10 @@
       "contextLength": 16000,
       "inputPerMillion": 0.125,
       "outputPerMillion": 0.5,
-      "intelligenceIndex": 4.554208249808115
+      "intelligenceIndex": 4.554208249808115,
+      "isOpenWeights": true,
+      "releaseDate": "2024-12-12",
+      "huggingFaceUrl": "https://huggingface.co/microsoft/phi-4"
     },
     {
       "id": "nova-micro",
@@ -1740,7 +2363,10 @@
       "contextLength": 130000,
       "inputPerMillion": 0.035,
       "outputPerMillion": 0.14,
-      "intelligenceIndex": 4.415725816088815
+      "intelligenceIndex": 4.415725816088815,
+      "isOpenWeights": false,
+      "releaseDate": "2024-12-03",
+      "huggingFaceUrl": null
     },
     {
       "id": "nvidia-nemotron-nano-12b-v2-vl",
@@ -1750,7 +2376,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 4.245900608081831
+      "intelligenceIndex": 4.245900608081831,
+      "isOpenWeights": true,
+      "releaseDate": "2025-10-28",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
     },
     {
       "id": "phi-4-multimodal",
@@ -1760,7 +2389,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 4.199451881920248
+      "intelligenceIndex": 4.199451881920248,
+      "isOpenWeights": true,
+      "releaseDate": "2025-02-26",
+      "huggingFaceUrl": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
     },
     {
       "id": "reka-flash-3",
@@ -1770,7 +2402,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 0.8,
-      "intelligenceIndex": 3.7086693490969416
+      "intelligenceIndex": 3.7086693490969416,
+      "isOpenWeights": true,
+      "releaseDate": "2025-03-10",
+      "huggingFaceUrl": "https://huggingface.co/RekaAI/reka-flash-3"
     },
     {
       "id": "llama-3-2-instruct-11b-vision",
@@ -1780,7 +2415,10 @@
       "contextLength": 128000,
       "inputPerMillion": 0.345,
       "outputPerMillion": 0.345,
-      "intelligenceIndex": 2.9524662088235054
+      "intelligenceIndex": 2.9524662088235054,
+      "isOpenWeights": true,
+      "releaseDate": "2024-09-25",
+      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct"
     },
     {
       "id": "olmo-3-7b-instruct",
@@ -1790,7 +2428,10 @@
       "contextLength": 65536,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 2.4042898651220748
+      "intelligenceIndex": 2.4042898651220748,
+      "isOpenWeights": true,
+      "releaseDate": "2025-11-20",
+      "huggingFaceUrl": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
     },
     {
       "id": "apertus-70b-instruct",
@@ -1800,7 +2441,10 @@
       "contextLength": 65536,
       "inputPerMillion": 0.82,
       "outputPerMillion": 2.92,
-      "intelligenceIndex": 1.9790799415030778
+      "intelligenceIndex": 1.9790799415030778,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-02",
+      "huggingFaceUrl": "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509"
     },
     {
       "id": "lfm2-5-vl-1-6b",
@@ -1810,7 +2454,10 @@
       "contextLength": 32000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 1
+      "intelligenceIndex": 1,
+      "isOpenWeights": true,
+      "releaseDate": "2026-01-05",
+      "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B"
     },
     {
       "id": "tiny-aya-global",
@@ -1820,7 +2467,10 @@
       "contextLength": 8192,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 1
+      "intelligenceIndex": 1,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-17",
+      "huggingFaceUrl": "https://huggingface.co/CohereLabs/tiny-aya-global"
     },
     {
       "id": "apertus-8b-instruct",
@@ -1830,7 +2480,10 @@
       "contextLength": 65536,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.2,
-      "intelligenceIndex": 1
+      "intelligenceIndex": 1,
+      "isOpenWeights": true,
+      "releaseDate": "2025-09-02",
+      "huggingFaceUrl": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509"
     }
   ]
 }

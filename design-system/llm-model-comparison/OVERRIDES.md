@@ -1,6 +1,6 @@
 # Design System Overrides (project)
 
-> Applied on top of generated MASTER.md for llm-market constraints.
+> Applied on top of generated MASTER.md for llm-model-comparison constraints.
 
 ## Direction
 

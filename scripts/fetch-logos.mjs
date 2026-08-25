@@ -48,7 +48,7 @@ async function downloadLogo(name) {
     headers: {
       Accept: "image/*,*/*",
       "User-Agent":
-        "Mozilla/5.0 (compatible; llm-market/0.1; +https://github.com/robeshell/llm-market)",
+        "Mozilla/5.0 (compatible; llm-model-comparison/0.1; +https://github.com/robeshell/llm-model-comparison)",
     },
   });
   if (!res.ok) {

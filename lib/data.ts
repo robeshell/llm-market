@@ -1,6 +1,10 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import type { PriceSnapshot, RankingSnapshot } from "./types";
+import type {
+  PopularSnapshot,
+  PriceSnapshot,
+  RankingSnapshot,
+} from "./types";
 
 export {
   formatNumber,
@@ -25,4 +29,8 @@ export function loadPrices() {
 
 export function loadRankings() {
   return readJson<RankingSnapshot>("rankings.json");
+}
+
+export function loadPopularity() {
+  return readJson<PopularSnapshot>("popularity.json");
 }

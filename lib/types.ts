@@ -7,6 +7,9 @@ export type PriceRecord = {
   inputPerMillion: number | null;
   outputPerMillion: number | null;
   intelligenceIndex: number | null;
+  isOpenWeights?: boolean | null;
+  releaseDate?: string | null;
+  huggingFaceUrl?: string | null;
 };
 
 export type PriceSnapshot = {
@@ -32,10 +35,34 @@ export type RankingRecord = {
   lcr: number | null;
   isReasoning: boolean;
   slug: string;
+  isOpenWeights?: boolean | null;
+  releaseDate?: string | null;
+  huggingFaceUrl?: string | null;
 };
 
 export type RankingSnapshot = {
   updatedAt: string;
   source: string;
   items: RankingRecord[];
+};
+
+export type PopularRecord = {
+  rank: number;
+  id: string;
+  canonicalSlug: string;
+  name: string;
+  provider: string;
+  providerSlug: string;
+  contextLength: number | null;
+  inputPerMillion: number | null;
+  outputPerMillion: number | null;
+  inputModalities: string[];
+  outputModalities: string[];
+};
+
+export type PopularSnapshot = {
+  updatedAt: string;
+  source: string;
+  window: string;
+  items: PopularRecord[];
 };

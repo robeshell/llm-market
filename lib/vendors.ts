@@ -73,7 +73,7 @@ const CREATOR_NAME_LOGO: Record<string, string> = {
   "Z AI": "zai_small.svg",
 };
 
-/** 站点 basePath（GitHub Pages 为 /llm-market，本地为空） */
+/** 站点 basePath（GitHub Pages 为 /llm-model-comparison，本地为空） */
 function siteBasePath(): string {
   return process.env.NEXT_PUBLIC_BASE_PATH || "";
 }
