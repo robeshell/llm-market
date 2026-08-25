@@ -606,9 +606,8 @@ export function RankingsTable({
             );
           })}
         </div>
+        <RankingsMetricGuide />
       </div>
-
-      <RankingsMetricGuide />
 
       <div className="directory-toolbar">
         <label className="sr-only" htmlFor="rank-filter">
