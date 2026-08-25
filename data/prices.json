@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T13:01:23.136Z",
+  "updatedAt": "2026-08-25T01:37:59.400Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -48,8 +48,8 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 60.9298701329203
     },
     {
@@ -98,8 +98,8 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 59.0090363705536
     },
     {
@@ -148,8 +148,8 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 57.3317210962224
     },
     {
@@ -198,8 +198,8 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 55.5729051710609
     },
     {
@@ -313,6 +313,16 @@
       "intelligenceIndex": 51.5819376989529
     },
     {
+      "id": "deepseek-v4-flash-vision",
+      "name": "DeepSeek V4 Flash Vision (max)",
+      "provider": "DeepSeek",
+      "creatorLogo": "deepseek_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.44,
+      "outputPerMillion": 1.32,
+      "intelligenceIndex": 51.4736425212072
+    },
+    {
       "id": "gemini-3-7-flash-low",
       "name": "Gemini 3.7 Flash (low)",
       "provider": "Google",
@@ -328,8 +338,8 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 50.7315181713702
     },
     {
@@ -518,8 +528,8 @@
       "provider": "OpenAI",
       "creatorLogo": "openai_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 41.8779730605066
     },
     {
@@ -701,6 +711,16 @@
       "inputPerMillion": 1.4,
       "outputPerMillion": 4.4,
       "intelligenceIndex": 34.8147227827453
+    },
+    {
+      "id": "qwen3-8-27b-non-reasoning",
+      "name": "Qwen3.8 27B",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 34.7379165622855
     },
     {
       "id": "gpt-5-6-terra-non-reasoning",
@@ -1223,6 +1243,16 @@
       "intelligenceIndex": 18.657997906883
     },
     {
+      "id": "hypernova-60b",
+      "name": "HyperNova 60B 2605",
+      "provider": "Multiverse Computing",
+      "creatorLogo": "multiversecomputing_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.04,
+      "outputPerMillion": 0.14,
+      "intelligenceIndex": 18.3173546297536
+    },
+    {
       "id": "nova-2-0-lite-reasoning-low",
       "name": "Nova 2.0 Lite (low)",
       "provider": "Amazon",
@@ -1319,7 +1349,7 @@
       "creatorLogo": "openai_small.svg",
       "contextLength": 131072,
       "inputPerMillion": 0.15,
-      "outputPerMillion": 0.595,
+      "outputPerMillion": 0.59,
       "intelligenceIndex": 14.9256339397626
     },
     {
