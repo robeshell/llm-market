@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T12:57:23.384Z",
+  "updatedAt": "2026-08-26T01:42:51.726Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -2424,9 +2424,9 @@
       "creator": "NVIDIA",
       "creatorSlug": "nvidia",
       "creatorLogo": "nvidia_small.svg",
-      "intelligenceIndex": 23.632637599256,
+      "intelligenceIndex": 23.606237599256,
       "codingIndex": 26.7621202663337,
-      "agenticIndex": 13.8496597938144,
+      "agenticIndex": 13.7616597938144,
       "gpqa": 0.743434343434343,
       "hle": 0.105653382761817,
       "scicode": 0.315972222222222,
