@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T01:42:51.726Z",
+  "updatedAt": "2026-08-26T13:03:24.476Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -4670,7 +4670,7 @@
       "shortName": "R1 1776",
       "creator": "Perplexity",
       "creatorSlug": "perplexity",
-      "creatorLogo": "perplexity_small.png",
+      "creatorLogo": "perplexity.svg",
       "intelligenceIndex": 6.049476427200174,
       "codingIndex": null,
       "agenticIndex": null,
