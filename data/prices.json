@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T13:03:23.881Z",
+  "updatedAt": "2026-08-27T08:40:08.258Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -183,6 +183,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-08-12",
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+    },
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "provider": "Z AI",
+      "creatorLogo": "zai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 57.4592004791323,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-26",
+      "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.3-Flash"
     },
     {
       "id": "gpt-5-6-sol-high",
@@ -471,6 +484,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "agnes-2-5-pro-beta",
+      "name": "Agnes 2.5 Pro Beta",
+      "provider": "Sapiens AI",
+      "creatorLogo": "sapiens.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.3,
+      "intelligenceIndex": 49.0952270697929,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-26",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "kimi-k3-low",
       "name": "Kimi K3 (low)",
       "provider": "Kimi",
@@ -752,9 +778,9 @@
       "inputPerMillion": 0.45,
       "outputPerMillion": 0.9,
       "intelligenceIndex": 39.7073049186574,
-      "isOpenWeights": false,
+      "isOpenWeights": true,
       "releaseDate": "2026-07-24",
-      "huggingFaceUrl": null
+      "huggingFaceUrl": "https://huggingface.co/Agnes-AI/Agnes-2.5-Pro-Alpha"
     },
     {
       "id": "qwen3-7-plus",
@@ -1563,6 +1589,19 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
     },
     {
+      "id": "granite-4-2-8b",
+      "name": "Granite 4.2 8B",
+      "provider": "IBM",
+      "creatorLogo": "ibm_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.25,
+      "intelligenceIndex": 19.6122296614101,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-25",
+      "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+    },
+    {
       "id": "devstral-2",
       "name": "Devstral 2",
       "provider": "Mistral",
@@ -1821,6 +1860,19 @@
       "isOpenWeights": true,
       "releaseDate": "2025-08-05",
       "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    {
+      "id": "granite-4-2-3b",
+      "name": "Granite 4.2 3B",
+      "provider": "IBM",
+      "creatorLogo": "ibm_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.03,
+      "outputPerMillion": 0.12,
+      "intelligenceIndex": 14.276448872352,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-25",
+      "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.2-3b"
     },
     {
       "id": "qwen3-next-80b-a3b-instruct",
