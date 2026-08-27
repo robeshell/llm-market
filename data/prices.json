@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T08:40:08.258Z",
+  "updatedAt": "2026-08-27T22:05:54.472Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -248,6 +248,19 @@
       "isOpenWeights": false,
       "releaseDate": "2026-08-13",
       "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-8-flash-next",
+      "name": "Qwen3.8-Flash-Next",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.47,
+      "intelligenceIndex": 55.8139871116362,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-26",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
     },
     {
       "id": "grok-4-5",
@@ -1366,6 +1379,19 @@
       "isOpenWeights": true,
       "releaseDate": "2025-08-05",
       "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-120b"
+    },
+    {
+      "id": "granite-4-2-30b",
+      "name": "Granite 4.2 30B",
+      "provider": "IBM",
+      "creatorLogo": "ibm_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.16,
+      "outputPerMillion": 0.65,
+      "intelligenceIndex": 23.7392624693287,
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-25",
+      "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.2-30b"
     },
     {
       "id": "nemotron-3-5-lightning",
