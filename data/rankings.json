@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T10:52:20.744Z",
+  "updatedAt": "2026-08-28T22:04:04.724Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -187,7 +187,7 @@
       "lcr": 0.763333333333333,
       "isReasoning": true,
       "slug": "glm-5-3",
-      "isOpenWeights": false,
+      "isOpenWeights": true,
       "releaseDate": "2026-08-18",
       "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.3"
     },
@@ -2041,7 +2041,7 @@
     },
     {
       "rank": 98,
-      "name": "K-EXAONE 2.0 0803",
+      "name": "K-EXAONE 2.0",
       "shortName": "K-EXAONE 2.0",
       "creator": "LG AI Research",
       "creatorSlug": "lg",

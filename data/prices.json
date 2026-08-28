@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T10:52:20.093Z",
+  "updatedAt": "2026-08-28T22:04:04.089Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -115,7 +115,7 @@
       "inputPerMillion": 1.4,
       "outputPerMillion": 4.4,
       "intelligenceIndex": 59.5134408119521,
-      "isOpenWeights": false,
+      "isOpenWeights": true,
       "releaseDate": "2026-08-18",
       "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.3"
     },
