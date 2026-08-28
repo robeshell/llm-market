@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T22:05:55.064Z",
+  "updatedAt": "2026-08-28T10:52:20.744Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1622,7 +1622,7 @@
     {
       "rank": 78,
       "name": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
-      "shortName": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
+      "shortName": "Claude Sonnet 4.6 (Non-reasoning, low)",
       "creator": "Anthropic",
       "creatorSlug": "anthropic",
       "creatorLogo": "anthropic_small.svg",
@@ -1685,7 +1685,7 @@
     {
       "rank": 81,
       "name": "GLM-5.2 (Non-reasoning)",
-      "shortName": "GLM-5.2",
+      "shortName": "GLM-5.2 (Non-reasoning)",
       "creator": "Z AI",
       "creatorSlug": "zai",
       "creatorLogo": "zai_small.svg",
@@ -1895,7 +1895,7 @@
     {
       "rank": 91,
       "name": "Qwen3.5 397B A17B (Non-reasoning)",
-      "shortName": "Qwen3.5 397B A17B",
+      "shortName": "Qwen3.5 397B A17B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -1937,7 +1937,7 @@
     {
       "rank": 93,
       "name": "DeepSeek V4 Pro (Non-reasoning)",
-      "shortName": "DeepSeek V4 Pro",
+      "shortName": "DeepSeek V4 Pro (Non-reasoning)",
       "creator": "DeepSeek",
       "creatorSlug": "deepseek",
       "creatorLogo": "deepseek_small.svg",
@@ -2000,7 +2000,7 @@
     {
       "rank": 96,
       "name": "Qwen3.6 27B (Non-reasoning)",
-      "shortName": "Qwen3.6 27B",
+      "shortName": "Qwen3.6 27B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -2147,7 +2147,7 @@
     {
       "rank": 103,
       "name": "DeepSeek V4 Flash (Non-reasoning)",
-      "shortName": "DeepSeek V4 Flash",
+      "shortName": "DeepSeek V4 Flash (Non-reasoning)",
       "creator": "DeepSeek",
       "creatorSlug": "deepseek",
       "creatorLogo": "deepseek_small.svg",
@@ -2210,7 +2210,7 @@
     {
       "rank": 106,
       "name": "MiMo-V2.5-Pro (Non-reasoning)",
-      "shortName": "MiMo-V2.5-Pro",
+      "shortName": "MiMo-V2.5-Pro (Non-reasoning)",
       "creator": "Xiaomi",
       "creatorSlug": "xiaomi",
       "creatorLogo": "xiaomi_small.svg",
@@ -2231,7 +2231,7 @@
     {
       "rank": 107,
       "name": "Qwen3.5 122B A10B (Non-reasoning)",
-      "shortName": "Qwen3.5 122B A10B",
+      "shortName": "Qwen3.5 122B A10B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -2336,7 +2336,7 @@
     {
       "rank": 112,
       "name": "MiMo-V2-Flash (Non-reasoning)",
-      "shortName": "MiMo-V2-Flash",
+      "shortName": "MiMo-V2-Flash (Non-reasoning)",
       "creator": "Xiaomi",
       "creatorSlug": "xiaomi",
       "creatorLogo": "xiaomi_small.svg",
@@ -2378,7 +2378,7 @@
     {
       "rank": 114,
       "name": "Qwen3.6 35B A3B (Non-reasoning)",
-      "shortName": "Qwen3.6 35B A3B",
+      "shortName": "Qwen3.6 35B A3B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -2420,7 +2420,7 @@
     {
       "rank": 116,
       "name": "Qwen3.5 35B A3B (Non-reasoning)",
-      "shortName": "Qwen3.5 35B A3B",
+      "shortName": "Qwen3.5 35B A3B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -2441,7 +2441,7 @@
     {
       "rank": 117,
       "name": "Claude 4.5 Haiku (Non-reasoning)",
-      "shortName": "Claude 4.5 Haiku",
+      "shortName": "Claude 4.5 Haiku (Non-reasoning)",
       "creator": "Anthropic",
       "creatorSlug": "anthropic",
       "creatorLogo": "anthropic_small.svg",
@@ -2588,7 +2588,7 @@
     {
       "rank": 124,
       "name": "Gemma 4 31B (Non-reasoning)",
-      "shortName": "Gemma 4 31B",
+      "shortName": "Gemma 4 31B (Non-reasoning)",
       "creator": "Google",
       "creatorSlug": "google",
       "creatorLogo": "google_small.svg",
@@ -2777,7 +2777,7 @@
     {
       "rank": 133,
       "name": "Qwen3.5 9B (Non-reasoning)",
-      "shortName": "Qwen3.5 9B",
+      "shortName": "Qwen3.5 9B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -2819,7 +2819,7 @@
     {
       "rank": 135,
       "name": "Gemma 4 26B A4B (Non-reasoning)",
-      "shortName": "Gemma 4 26B A4B",
+      "shortName": "Gemma 4 26B A4B (Non-reasoning)",
       "creator": "Google",
       "creatorSlug": "google",
       "creatorLogo": "google_small.svg",
@@ -3218,7 +3218,7 @@
     {
       "rank": 154,
       "name": "K-EXAONE (Non-reasoning)",
-      "shortName": "K-EXAONE",
+      "shortName": "K-EXAONE (Non-reasoning)",
       "creator": "LG AI Research",
       "creatorSlug": "lg",
       "creatorLogo": "lg_small.png",
@@ -3239,7 +3239,7 @@
     {
       "rank": 155,
       "name": "Qwen3 Next 80B A3B (Reasoning)",
-      "shortName": "Qwen3 Next 80B A3B",
+      "shortName": "Qwen3 Next 80B A3B (Reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -3323,7 +3323,7 @@
     {
       "rank": 159,
       "name": "Qwen3.5 4B (Non-reasoning)",
-      "shortName": "Qwen3.5 4B",
+      "shortName": "Qwen3.5 4B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -3533,7 +3533,7 @@
     {
       "rank": 169,
       "name": "Nova 2.0 Pro Preview (Non-reasoning)",
-      "shortName": "Nova 2.0 Pro Preview",
+      "shortName": "Nova 2.0 Pro Preview (Non-reasoning)",
       "creator": "Amazon",
       "creatorSlug": "aws",
       "creatorLogo": "aws_small.svg",
@@ -3785,7 +3785,7 @@
     {
       "rank": 181,
       "name": "Mistral Small 4 (Non-reasoning)",
-      "shortName": "Mistral Small 4",
+      "shortName": "Mistral Small 4 (Non-reasoning)",
       "creator": "Mistral",
       "creatorSlug": "mistral",
       "creatorLogo": "mistral_small.png",
@@ -3890,7 +3890,7 @@
     {
       "rank": 186,
       "name": "Nova 2.0 Lite (Non-reasoning)",
-      "shortName": "Nova 2.0 Lite",
+      "shortName": "Nova 2.0 Lite (Non-reasoning)",
       "creator": "Amazon",
       "creatorSlug": "aws",
       "creatorLogo": "aws_small.svg",
@@ -3911,7 +3911,7 @@
     {
       "rank": 187,
       "name": "MiniCPM5-1B (Non-reasoning)",
-      "shortName": "MiniCPM5-1B",
+      "shortName": "MiniCPM5-1B (Non-reasoning)",
       "creator": "OpenBMB",
       "creatorSlug": "openbmb",
       "creatorLogo": "openbmb_small.svg",
@@ -4037,7 +4037,7 @@
     {
       "rank": 193,
       "name": "Nova 2.0 Omni (Non-reasoning)",
-      "shortName": "Nova 2.0 Omni",
+      "shortName": "Nova 2.0 Omni (Non-reasoning)",
       "creator": "Amazon",
       "creatorSlug": "aws",
       "creatorLogo": "aws_small.svg",
@@ -4142,7 +4142,7 @@
     {
       "rank": 198,
       "name": "Qwen3 Omni 30B A3B (Reasoning)",
-      "shortName": "Qwen3 Omni 30B A3B",
+      "shortName": "Qwen3 Omni 30B A3B (Reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -4310,7 +4310,7 @@
     {
       "rank": 206,
       "name": "Gemma 4 E4B (Non-reasoning)",
-      "shortName": "Gemma 4 E4B",
+      "shortName": "Gemma 4 E4B (Non-reasoning)",
       "creator": "Google",
       "creatorSlug": "google",
       "creatorLogo": "google_small.svg",
@@ -4373,7 +4373,7 @@
     {
       "rank": 209,
       "name": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
-      "shortName": "Hermes 4 405B",
+      "shortName": "Hermes 4 405B (Non-reasoning)",
       "creator": "Nous Research",
       "creatorSlug": "nous-research",
       "creatorLogo": "nousresearch_small.jpg",
@@ -4415,7 +4415,7 @@
     {
       "rank": 211,
       "name": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
-      "shortName": "Llama Nemotron Super 49B v1.5",
+      "shortName": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
       "creator": "NVIDIA",
       "creatorSlug": "nvidia",
       "creatorLogo": "nvidia_small.svg",
@@ -4625,7 +4625,7 @@
     {
       "rank": 221,
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
-      "shortName": "Nemotron 3 Nano",
+      "shortName": "Nemotron 3 Nano (Non-reasoning)",
       "creator": "NVIDIA",
       "creatorSlug": "nvidia",
       "creatorLogo": "nvidia_small.svg",
@@ -4646,7 +4646,7 @@
     {
       "rank": 222,
       "name": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
-      "shortName": "NVIDIA Nemotron Nano 9B V2",
+      "shortName": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "creator": "NVIDIA",
       "creatorSlug": "nvidia",
       "creatorLogo": "nvidia_small.svg",
@@ -4688,7 +4688,7 @@
     {
       "rank": 224,
       "name": "Hermes 4 - Llama-3.1 70B (Non-reasoning)",
-      "shortName": "Hermes 4 70B",
+      "shortName": "Hermes 4 70B (Non-reasoning)",
       "creator": "Nous Research",
       "creatorSlug": "nous-research",
       "creatorLogo": "nousresearch_small.jpg",
@@ -4772,7 +4772,7 @@
     {
       "rank": 228,
       "name": "Gemma 4 E2B (Non-reasoning)",
-      "shortName": "Gemma 4 E2B",
+      "shortName": "Gemma 4 E2B (Non-reasoning)",
       "creator": "Google",
       "creatorSlug": "google",
       "creatorLogo": "google_small.svg",
@@ -4856,7 +4856,7 @@
     {
       "rank": 232,
       "name": "EXAONE 4.0 32B (Non-reasoning)",
-      "shortName": "EXAONE 4.0 32B",
+      "shortName": "EXAONE 4.0 32B (Non-reasoning)",
       "creator": "LG AI Research",
       "creatorSlug": "lg",
       "creatorLogo": "lg_small.png",
@@ -4877,7 +4877,7 @@
     {
       "rank": 233,
       "name": "Qwen3.5 2B (Non-reasoning)",
-      "shortName": "Qwen3.5 2B",
+      "shortName": "Qwen3.5 2B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -5087,7 +5087,7 @@
     {
       "rank": 243,
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
-      "shortName": "NVIDIA Nemotron Nano 12B v2 VL",
+      "shortName": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "creator": "NVIDIA",
       "creatorSlug": "nvidia",
       "creatorLogo": "nvidia_small.svg",
@@ -5255,7 +5255,7 @@
     {
       "rank": 251,
       "name": "Qwen3.5 0.8B (Non-reasoning)",
-      "shortName": "Qwen3.5 0.8B",
+      "shortName": "Qwen3.5 0.8B (Non-reasoning)",
       "creator": "Alibaba",
       "creatorSlug": "alibaba",
       "creatorLogo": "alibaba_small.svg",
@@ -5318,7 +5318,7 @@
     {
       "rank": 254,
       "name": "Exaone 4.0 1.2B (Non-reasoning)",
-      "shortName": "Exaone 4.0 1.2B",
+      "shortName": "Exaone 4.0 1.2B (Non-reasoning)",
       "creator": "LG AI Research",
       "creatorSlug": "lg",
       "creatorLogo": "lg_small.png",

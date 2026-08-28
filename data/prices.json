@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T22:05:54.472Z",
+  "updatedAt": "2026-08-28T10:52:20.093Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -927,7 +927,7 @@
     },
     {
       "id": "claude-sonnet-4-6-non-reasoning-low-effort",
-      "name": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
+      "name": "Claude Sonnet 4.6 (Non-reasoning, low)",
       "provider": "Anthropic",
       "creatorLogo": "anthropic_small.svg",
       "contextLength": 1000000,
@@ -953,7 +953,7 @@
     },
     {
       "id": "glm-5-2-non-reasoning",
-      "name": "GLM-5.2",
+      "name": "GLM-5.2 (Non-reasoning)",
       "provider": "Z AI",
       "creatorLogo": "zai_small.svg",
       "contextLength": 1000000,
@@ -1070,7 +1070,7 @@
     },
     {
       "id": "qwen3-5-397b-a17b-non-reasoning",
-      "name": "Qwen3.5 397B A17B",
+      "name": "Qwen3.5 397B A17B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1096,7 +1096,7 @@
     },
     {
       "id": "deepseek-v4-pro-0424-non-reasoning",
-      "name": "DeepSeek V4 Pro",
+      "name": "DeepSeek V4 Pro (Non-reasoning)",
       "provider": "DeepSeek",
       "creatorLogo": "deepseek_small.svg",
       "contextLength": 1000000,
@@ -1135,7 +1135,7 @@
     },
     {
       "id": "qwen3-6-27b-non-reasoning",
-      "name": "Qwen3.6 27B",
+      "name": "Qwen3.6 27B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "deepseek-v4-flash-non-reasoning",
-      "name": "DeepSeek V4 Flash",
+      "name": "DeepSeek V4 Flash (Non-reasoning)",
       "provider": "DeepSeek",
       "creatorLogo": "deepseek_small.svg",
       "contextLength": 1000000,
@@ -1239,7 +1239,7 @@
     },
     {
       "id": "mimo-v2-5-pro-non-reasoning",
-      "name": "MiMo-V2.5-Pro",
+      "name": "MiMo-V2.5-Pro (Non-reasoning)",
       "provider": "Xiaomi",
       "creatorLogo": "xiaomi_small.svg",
       "contextLength": 1000000,
@@ -1252,7 +1252,7 @@
     },
     {
       "id": "qwen3-5-122b-a10b-non-reasoning",
-      "name": "Qwen3.5 122B A10B",
+      "name": "Qwen3.5 122B A10B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1317,7 +1317,7 @@
     },
     {
       "id": "qwen3-6-35b-a3b-non-reasoning",
-      "name": "Qwen3.6 35B A3B",
+      "name": "Qwen3.6 35B A3B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1343,7 +1343,7 @@
     },
     {
       "id": "qwen3-5-35b-a3b-non-reasoning",
-      "name": "Qwen3.5 35B A3B",
+      "name": "Qwen3.5 35B A3B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "claude-4-5-haiku",
-      "name": "Claude 4.5 Haiku",
+      "name": "Claude 4.5 Haiku (Non-reasoning)",
       "provider": "Anthropic",
       "creatorLogo": "anthropic_small.svg",
       "contextLength": 200000,
@@ -1421,7 +1421,7 @@
     },
     {
       "id": "gemma-4-31b-non-reasoning",
-      "name": "Gemma 4 31B",
+      "name": "Gemma 4 31B (Non-reasoning)",
       "provider": "Google",
       "creatorLogo": "google_small.svg",
       "contextLength": 256000,
@@ -1538,7 +1538,7 @@
     },
     {
       "id": "qwen3-5-9b-non-reasoning",
-      "name": "Qwen3.5 9B",
+      "name": "Qwen3.5 9B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1551,7 +1551,7 @@
     },
     {
       "id": "gemma-4-26b-a4b-non-reasoning",
-      "name": "Gemma 4 26B A4B",
+      "name": "Gemma 4 26B A4B (Non-reasoning)",
       "provider": "Google",
       "creatorLogo": "google_small.svg",
       "contextLength": 256000,
@@ -1720,7 +1720,7 @@
     },
     {
       "id": "qwen3-next-80b-a3b-reasoning",
-      "name": "Qwen3 Next 80B A3B",
+      "name": "Qwen3 Next 80B A3B (Reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1759,7 +1759,7 @@
     },
     {
       "id": "qwen3-5-4b-non-reasoning",
-      "name": "Qwen3.5 4B",
+      "name": "Qwen3.5 4B (Non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 262144,
@@ -1863,7 +1863,7 @@
     },
     {
       "id": "nova-2-0-pro",
-      "name": "Nova 2.0 Pro Preview",
+      "name": "Nova 2.0 Pro Preview (Non-reasoning)",
       "provider": "Amazon",
       "creatorLogo": "aws_small.svg",
       "contextLength": 256000,
@@ -1967,7 +1967,7 @@
     },
     {
       "id": "mistral-small-4-non-reasoning",
-      "name": "Mistral Small 4",
+      "name": "Mistral Small 4 (Non-reasoning)",
       "provider": "Mistral",
       "creatorLogo": "mistral_small.png",
       "contextLength": 256000,
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "nova-2-0-lite",
-      "name": "Nova 2.0 Lite",
+      "name": "Nova 2.0 Lite (Non-reasoning)",
       "provider": "Amazon",
       "creatorLogo": "aws_small.svg",
       "contextLength": 1000000,
@@ -2058,7 +2058,7 @@
     },
     {
       "id": "nova-2-0-omni",
-      "name": "Nova 2.0 Omni",
+      "name": "Nova 2.0 Omni (Non-reasoning)",
       "provider": "Amazon",
       "creatorLogo": "aws_small.svg",
       "contextLength": 1000000,
@@ -2097,7 +2097,7 @@
     },
     {
       "id": "qwen3-omni-30b-a3b-reasoning",
-      "name": "Qwen3 Omni 30B A3B",
+      "name": "Qwen3 Omni 30B A3B (Reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "alibaba_small.svg",
       "contextLength": 65536,
@@ -2188,7 +2188,7 @@
     },
     {
       "id": "gemma-4-e4b-non-reasoning",
-      "name": "Gemma 4 E4B",
+      "name": "Gemma 4 E4B (Non-reasoning)",
       "provider": "Google",
       "creatorLogo": "google_small.svg",
       "contextLength": 128000,
@@ -2214,7 +2214,7 @@
     },
     {
       "id": "hermes-4-llama-3-1-405b",
-      "name": "Hermes 4 405B",
+      "name": "Hermes 4 405B (Non-reasoning)",
       "provider": "Nous Research",
       "creatorLogo": "nousresearch_small.jpg",
       "contextLength": 128000,
@@ -2227,7 +2227,7 @@
     },
     {
       "id": "llama-nemotron-super-49b-v1-5",
-      "name": "Llama Nemotron Super 49B v1.5",
+      "name": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "nvidia_small.svg",
       "contextLength": 128000,
@@ -2305,7 +2305,7 @@
     },
     {
       "id": "nvidia-nemotron-3-nano-30b-a3b",
-      "name": "Nemotron 3 Nano",
+      "name": "Nemotron 3 Nano (Non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "nvidia_small.svg",
       "contextLength": 1000000,
@@ -2318,7 +2318,7 @@
     },
     {
       "id": "nvidia-nemotron-nano-9b-v2",
-      "name": "NVIDIA Nemotron Nano 9B V2",
+      "name": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "nvidia_small.svg",
       "contextLength": 131072,
@@ -2344,7 +2344,7 @@
     },
     {
       "id": "hermes-4-llama-3-1-70b",
-      "name": "Hermes 4 70B",
+      "name": "Hermes 4 70B (Non-reasoning)",
       "provider": "Nous Research",
       "creatorLogo": "nousresearch_small.jpg",
       "contextLength": 128000,
@@ -2448,7 +2448,7 @@
     },
     {
       "id": "nvidia-nemotron-nano-12b-v2-vl",
-      "name": "NVIDIA Nemotron Nano 12B v2 VL",
+      "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "nvidia_small.svg",
       "contextLength": 128000,
