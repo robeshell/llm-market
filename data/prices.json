@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T04:56:38.761Z",
+  "updatedAt": "2026-08-31T19:00:32.492Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -840,8 +840,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "nvidia_small.svg",
       "contextLength": 262144,
-      "inputPerMillion": 0.6,
-      "outputPerMillion": 2.75,
+      "inputPerMillion": 0.675,
+      "outputPerMillion": 2.675,
       "intelligenceIndex": 38.3185469149774,
       "isOpenWeights": true,
       "releaseDate": "2026-06-04",
@@ -1685,8 +1685,8 @@
       "provider": "Arcee AI",
       "creatorLogo": "arcee_small.svg",
       "contextLength": 512000,
-      "inputPerMillion": 0.235,
-      "outputPerMillion": 0.875,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 0.9,
       "intelligenceIndex": 18.657997906883,
       "isOpenWeights": true,
       "releaseDate": "2026-04-01",
