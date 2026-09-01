@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T04:35:29.073Z",
+  "updatedAt": "2026-09-01T16:24:15.597Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1451,7 +1451,7 @@
       "provider": "Google",
       "creatorLogo": "google_small.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.15,
+      "inputPerMillion": 0.14500000000000002,
       "outputPerMillion": 0.4,
       "intelligenceIndex": 22.2511464625226,
       "isOpenWeights": true,
