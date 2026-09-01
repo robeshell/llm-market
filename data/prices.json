@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T19:00:32.492Z",
+  "updatedAt": "2026-09-01T04:35:29.073Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -664,6 +664,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-06-12",
       "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+    },
+    {
+      "id": "quasar-438b",
+      "name": "Quasar 438B",
+      "provider": "Multiverse Computing",
+      "creatorLogo": "multiversecomputing_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.6,
+      "outputPerMillion": 1.8,
+      "intelligenceIndex": 42.9859533040171,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-10",
+      "huggingFaceUrl": null
     },
     {
       "id": "mimo-v2-5-pro",
