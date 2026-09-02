@@ -1,7 +1,33 @@
 {
-  "updatedAt": "2026-09-01T16:24:15.597Z",
+  "updatedAt": "2026-09-02T03:57:46.509Z",
   "source": "Artificial Analysis",
   "items": [
+    {
+      "id": "claude-fable-5-1",
+      "name": "Claude Fable 5.1 (max with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 65.6528630094377,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-fable-5-1-xhigh",
+      "name": "Claude Fable 5.1 (xhigh with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 64.8015742258595,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
+      "huggingFaceUrl": null
+    },
     {
       "id": "claude-opus-5",
       "name": "Claude Opus 5 (max)",
@@ -26,6 +52,19 @@
       "intelligenceIndex": 62.52047429879,
       "isOpenWeights": false,
       "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-fable-5-1-high",
+      "name": "Claude Fable 5.1 (high with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 62.4807148804427,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
@@ -78,6 +117,19 @@
       "intelligenceIndex": 60.92297113115,
       "isOpenWeights": false,
       "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-fable-5-1-medium",
+      "name": "Claude Fable 5.1 (medium with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 60.4752258852075,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
@@ -156,6 +208,19 @@
       "intelligenceIndex": 58.6354597438038,
       "isOpenWeights": false,
       "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-fable-5-1-low",
+      "name": "Claude Fable 5.1 (low with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 58.1486711176965,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
