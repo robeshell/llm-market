@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T03:57:46.509Z",
+  "updatedAt": "2026-09-02T16:21:53.676Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -198,6 +198,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash (high)",
+      "provider": "Google",
+      "creatorLogo": "google_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.75,
+      "outputPerMillion": 3.75,
+      "intelligenceIndex": 58.679185261722,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-02",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "claude-opus-5-medium",
       "name": "Claude Opus 5 (medium)",
       "provider": "Anthropic",
@@ -286,6 +299,19 @@
       "intelligenceIndex": 56.7615911905642,
       "isOpenWeights": false,
       "releaseDate": "2026-08-05",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemini-3-8-flash-medium",
+      "name": "Gemini 3.8 Flash (medium)",
+      "provider": "Google",
+      "creatorLogo": "google_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.75,
+      "outputPerMillion": 3.75,
+      "intelligenceIndex": 56.6390716194986,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-02",
       "huggingFaceUrl": null
     },
     {
@@ -469,6 +495,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-07-31",
       "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "id": "gemini-3-8-flash-low",
+      "name": "Gemini 3.8 Flash (low)",
+      "provider": "Google",
+      "creatorLogo": "google_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.75,
+      "outputPerMillion": 3.75,
+      "intelligenceIndex": 51.749209404077,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-02",
+      "huggingFaceUrl": null
     },
     {
       "id": "grok-4-6-low",
