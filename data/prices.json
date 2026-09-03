@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:21:53.676Z",
+  "updatedAt": "2026-09-03T03:56:55.048Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -117,6 +117,19 @@
       "intelligenceIndex": 60.92297113115,
       "isOpenWeights": false,
       "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "muse-spark-1-3-xhigh",
+      "name": "Muse Spark 1.3 (xhigh)",
+      "provider": "Meta",
+      "creatorLogo": "meta_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 1.25,
+      "outputPerMillion": 4.25,
+      "intelligenceIndex": 60.7780170551777,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-02",
       "huggingFaceUrl": null
     },
     {
@@ -771,7 +784,7 @@
     },
     {
       "id": "quasar-438b",
-      "name": "Quasar 438B",
+      "name": "Quasar 438B (max)",
       "provider": "Multiverse Computing",
       "creatorLogo": "multiversecomputing_small.svg",
       "contextLength": 1000000,
@@ -1811,7 +1824,7 @@
     },
     {
       "id": "hypernova-60b",
-      "name": "HyperNova 60B 2605",
+      "name": "HyperNova 60B 2605 (high)",
       "provider": "Multiverse Computing",
       "creatorLogo": "multiversecomputing_small.svg",
       "contextLength": 131072,
