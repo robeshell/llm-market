@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T04:02:30.250Z",
+  "updatedAt": "2026-09-04T16:07:26.371Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1873,6 +1873,27 @@
     },
     {
       "rank": 90,
+      "name": "Solar Open2 250B",
+      "shortName": "Solar Open2 250B",
+      "creator": "Upstage",
+      "creatorSlug": "upstage",
+      "creatorLogo": "upstage_small.svg",
+      "intelligenceIndex": 37.5098869254965,
+      "codingIndex": 45.0110105423776,
+      "agenticIndex": 27.8071615120275,
+      "gpqa": 0.856565656565657,
+      "hle": 0.285449490268767,
+      "scicode": 0.466435185185185,
+      "terminalbench": 0.441947565543071,
+      "lcr": 0.683333333333333,
+      "isReasoning": true,
+      "slug": "solar-open2-250b",
+      "isOpenWeights": true,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
+    },
+    {
+      "rank": 91,
       "name": "Gemini 3.5 Flash-Lite",
       "shortName": "Gemini 3.5 Flash-Lite",
       "creator": "Google",
@@ -1891,27 +1912,6 @@
       "isOpenWeights": false,
       "releaseDate": "2026-07-21",
       "huggingFaceUrl": null
-    },
-    {
-      "rank": 91,
-      "name": "Solar Open2 250B",
-      "shortName": "Solar Open2 250B",
-      "creator": "Upstage",
-      "creatorSlug": "upstage",
-      "creatorLogo": "upstage_small.svg",
-      "intelligenceIndex": 37.4265535921632,
-      "codingIndex": 44.6637883201554,
-      "agenticIndex": 27.8071615120275,
-      "gpqa": 0.856565656565657,
-      "hle": 0.285449490268767,
-      "scicode": 0.456018518518519,
-      "terminalbench": 0.441947565543071,
-      "lcr": 0.683333333333333,
-      "isReasoning": true,
-      "slug": "solar-open2-250b",
-      "isOpenWeights": true,
-      "releaseDate": "2026-08-12",
-      "huggingFaceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
     },
     {
       "rank": 92,
