@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T16:12:20.578Z",
+  "updatedAt": "2026-09-04T04:02:29.780Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -94,6 +94,32 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra (max)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 61.2161067377315,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-astra-xhigh",
+      "name": "GPT-6 Astra (xhigh)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 60.9930848184951,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-5-6-sol",
       "name": "GPT-5.6 Sol (max)",
       "provider": "OpenAI",
@@ -146,6 +172,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-astra-high",
+      "name": "GPT-6 Astra (high)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 60.3349859597706,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "grok-4-6-xhigh",
       "name": "Grok 4.6 (xhigh)",
       "provider": "SpaceXAI",
@@ -183,6 +222,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-08-18",
       "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.3"
+    },
+    {
+      "id": "gpt-6-astra-medium",
+      "name": "GPT-6 Astra (medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 59.1798597206534,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-sol-xhigh",
@@ -315,6 +367,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-astra-low",
+      "name": "GPT-6 Astra (low)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 56.7266719631899,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gemini-3-8-flash-medium",
       "name": "Gemini 3.8 Flash (medium)",
       "provider": "Google",
@@ -390,6 +455,19 @@
       "intelligenceIndex": 55.5729051710609,
       "isOpenWeights": false,
       "releaseDate": "2026-07-09",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-astra-non-reasoning",
+      "name": "GPT-6 Astra (Non-reasoning)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 55.340346794842,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-03",
       "huggingFaceUrl": null
     },
     {
@@ -970,8 +1048,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "nvidia_small.svg",
       "contextLength": 262144,
-      "inputPerMillion": 0.675,
-      "outputPerMillion": 2.675,
+      "inputPerMillion": 0.6,
+      "outputPerMillion": 2.6,
       "intelligenceIndex": 38.3185469149774,
       "isOpenWeights": true,
       "releaseDate": "2026-06-04",
@@ -1087,8 +1165,8 @@
       "provider": "Meta",
       "creatorLogo": "meta_small.svg",
       "contextLength": 131072,
-      "inputPerMillion": 0.32499999999999996,
-      "outputPerMillion": 1.35,
+      "inputPerMillion": 0.35,
+      "outputPerMillion": 1.5,
       "intelligenceIndex": 35.0641823105374,
       "isOpenWeights": true,
       "releaseDate": "2026-08-10",
