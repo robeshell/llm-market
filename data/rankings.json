@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T03:56:04.474Z",
+  "updatedAt": "2026-09-05T14:56:36.796Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1689,7 +1689,7 @@
       "creator": "Thinking Machines",
       "creatorSlug": "thinking-machines",
       "creatorLogo": "thinking_machines.svg",
-      "intelligenceIndex": 32.1865277396553,
+      "intelligenceIndex": 32.1665277396553,
       "codingIndex": 52.0590581217922,
       "agenticIndex": 24.4413608247423,
       "gpqa": 0.871717171717172,
@@ -3595,6 +3595,27 @@
     },
     {
       "rank": 172,
+      "name": "Mistral Large 3",
+      "shortName": "Mistral Large 3",
+      "creator": "Mistral",
+      "creatorSlug": "mistral",
+      "creatorLogo": "mistral_small.png",
+      "intelligenceIndex": 11.1335262865373,
+      "codingIndex": 20.0656297683452,
+      "agenticIndex": 2.47936597938144,
+      "gpqa": 0.67979797979798,
+      "hle": 0.0417052826691381,
+      "scicode": 0.365740740740741,
+      "terminalbench": 0.119850187265918,
+      "lcr": 0.36,
+      "isReasoning": false,
+      "slug": "mistral-large-3",
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-02",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
+    },
+    {
+      "rank": 173,
       "name": "HyperCLOVA X SEED Think (32B)",
       "shortName": "HyperCLOVA X SEED Think (32B)",
       "creator": "Naver",
@@ -3615,7 +3636,7 @@
       "huggingFaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B"
     },
     {
-      "rank": 173,
+      "rank": 174,
       "name": "K-EXAONE (Non-reasoning)",
       "shortName": "K-EXAONE (Non-reasoning)",
       "creator": "LG AI Research",
@@ -3636,7 +3657,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B"
     },
     {
-      "rank": 174,
+      "rank": 175,
       "name": "Granite 4.2 3B",
       "shortName": "Granite 4.2 3B",
       "creator": "IBM",
@@ -3657,7 +3678,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.2-3b"
     },
     {
-      "rank": 175,
+      "rank": 176,
       "name": "Qwen3 Next 80B A3B (Reasoning)",
       "shortName": "Qwen3 Next 80B A3B (Reasoning)",
       "creator": "Alibaba",
@@ -3678,7 +3699,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
     },
     {
-      "rank": 176,
+      "rank": 177,
       "name": "Nova 2.0 Omni (low)",
       "shortName": "Nova 2.0 Omni (low)",
       "creator": "Amazon",
@@ -3699,7 +3720,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "Mi:dm K 2.5 Pro",
       "shortName": "Mi:dm K 2.5 Pro",
       "creator": "Korea Telecom",
@@ -3720,7 +3741,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 178,
+      "rank": 179,
       "name": "G9v3-3B",
       "shortName": "G9v3-3B",
       "creator": "AI9Stars",
@@ -3741,7 +3762,7 @@
       "huggingFaceUrl": "https://huggingface.co/ai9stars/G9v3-3B"
     },
     {
-      "rank": 179,
+      "rank": 180,
       "name": "Qwen3.5 4B (Non-reasoning)",
       "shortName": "Qwen3.5 4B (Non-reasoning)",
       "creator": "Alibaba",
@@ -3760,27 +3781,6 @@
       "isOpenWeights": true,
       "releaseDate": "2026-03-02",
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
-    },
-    {
-      "rank": 180,
-      "name": "Mistral Large 3",
-      "shortName": "Mistral Large 3",
-      "creator": "Mistral",
-      "creatorSlug": "mistral",
-      "creatorLogo": "mistral_small.png",
-      "intelligenceIndex": 9.67787326555219,
-      "codingIndex": 20.0656297683452,
-      "agenticIndex": 2.47936597938144,
-      "gpqa": 0.67979797979798,
-      "hle": 0.0417052826691381,
-      "scicode": 0.365740740740741,
-      "terminalbench": 0.119850187265918,
-      "lcr": 0.36,
-      "isReasoning": false,
-      "slug": "mistral-large-3",
-      "isOpenWeights": true,
-      "releaseDate": "2025-12-02",
-      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
     },
     {
       "rank": 181,

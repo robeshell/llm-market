@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T03:56:04.886Z",
+  "updatedAt": "2026-09-05T14:56:37.428Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -102,8 +102,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.08693999999999999,
-      "outputPerMillion": 0.17387999999999998,
+      "inputPerMillion": 0.0847,
+      "outputPerMillion": 0.1694,
       "inputModalities": [
         "text"
       ],
@@ -304,8 +304,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.9613499999999999,
-      "outputPerMillion": 1.9226999999999999,
+      "inputPerMillion": 0.859908,
+      "outputPerMillion": 1.719816,
       "inputModalities": [
         "text"
       ],
@@ -374,8 +374,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 1.12068,
-      "outputPerMillion": 3.36204,
+      "inputPerMillion": 0.57948,
+      "outputPerMillion": 1.73844,
       "inputModalities": [
         "text"
       ],
@@ -611,6 +611,27 @@
     },
     {
       "rank": 34,
+      "id": "meta/muse-spark-1.3-contributor",
+      "canonicalSlug": "meta/muse-spark-1.3-contributor-20260902",
+      "name": "Muse Spark 1.3 Contributor",
+      "provider": "Meta",
+      "providerSlug": "meta",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.09999999999999999,
+      "outputPerMillion": 0.19999999999999998,
+      "inputModalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 35,
       "id": "google/gemini-3.1-flash-lite",
       "canonicalSlug": "google/gemini-3.1-flash-lite-20260507",
       "name": "Gemini 3.1 Flash Lite",
@@ -631,7 +652,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "id": "openai/gpt-oss-120b",
       "canonicalSlug": "openai/gpt-oss-120b",
       "name": "gpt-oss-120b",
@@ -648,7 +669,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 37,
       "id": "anthropic/claude-opus-4.8",
       "canonicalSlug": "anthropic/claude-4.8-opus-20260528",
       "name": "Claude Opus 4.8",
@@ -667,7 +688,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "id": "x-ai/grok-4.6",
       "canonicalSlug": "x-ai/grok-4.6-20260810",
       "name": "Grok 4.6",
@@ -680,27 +701,6 @@
         "text",
         "image",
         "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 38,
-      "id": "meta/muse-spark-1.3-contributor",
-      "canonicalSlug": "meta/muse-spark-1.3-contributor-20260902",
-      "name": "Muse Spark 1.3 Contributor",
-      "provider": "Meta",
-      "providerSlug": "meta",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.09999999999999999,
-      "outputPerMillion": 0.19999999999999998,
-      "inputModalities": [
-        "text",
-        "image",
-        "video",
-        "file",
-        "audio"
       ],
       "outputModalities": [
         "text"
@@ -745,6 +745,23 @@
     },
     {
       "rank": 41,
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "canonicalSlug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+      "name": "Nemotron 3 Super (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 42,
       "id": "google/gemma-4-31b-it",
       "canonicalSlug": "google/gemma-4-31b-it-20260402",
       "name": "Gemma 4 31B",
@@ -757,23 +774,6 @@
         "image",
         "text",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 42,
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "canonicalSlug": "nvidia/nemotron-3-super-120b-a12b-20230311",
-      "name": "Nemotron 3 Super (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
@@ -817,25 +817,6 @@
     },
     {
       "rank": 45,
-      "id": "qwen/qwen3.8-max",
-      "canonicalSlug": "qwen/qwen3.8-max-20260803",
-      "name": "Qwen3.8 Max",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 46,
       "id": "meta/muse-spark-1.2-contributor",
       "canonicalSlug": "meta/muse-spark-1.2-contributor-20260805",
       "name": "Muse Spark 1.2 Contributor",
@@ -856,7 +837,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 46,
       "id": "anthropic/claude-haiku-4.5",
       "canonicalSlug": "anthropic/claude-4.5-haiku-20251001",
       "name": "Claude Haiku 4.5",
@@ -875,7 +856,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 47,
       "id": "anthropic/claude-fable-5.1",
       "canonicalSlug": "anthropic/claude-fable-5.1-20260831",
       "name": "Claude Fable 5.1",
@@ -888,6 +869,25 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 48,
+      "id": "thinkingmachines/inkling:free",
+      "canonicalSlug": "thinkingmachines/inkling-20260715",
+      "name": "Inkling (free)",
+      "provider": "Thinking Machines",
+      "providerSlug": "thinkingmachines",
+      "contextLength": 1048576,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image",
+        "audio"
       ],
       "outputModalities": [
         "text"
@@ -916,18 +916,18 @@
     },
     {
       "rank": 50,
-      "id": "thinkingmachines/inkling:free",
-      "canonicalSlug": "thinkingmachines/inkling-20260715",
-      "name": "Inkling (free)",
-      "provider": "Thinking Machines",
-      "providerSlug": "thinkingmachines",
-      "contextLength": 1048576,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "id": "openai/gpt-4o-mini",
+      "canonicalSlug": "openai/gpt-4o-mini",
+      "name": "GPT-4o-mini",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 128000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6,
       "inputModalities": [
         "text",
         "image",
-        "audio"
+        "file"
       ],
       "outputModalities": [
         "text"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T03:56:03.482Z",
+  "updatedAt": "2026-09-05T14:56:35.808Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1011,7 +1011,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 1,
       "outputPerMillion": 4.05,
-      "intelligenceIndex": 32.1865277396553,
+      "intelligenceIndex": 32.1665277396553,
       "isOpenWeights": true,
       "releaseDate": "2026-07-15",
       "huggingFaceUrl": "https://huggingface.co/thinkingmachines/Inkling"
@@ -1953,6 +1953,19 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
     },
     {
+      "id": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "provider": "Mistral",
+      "creatorLogo": "mistral_small.png",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 1.5,
+      "intelligenceIndex": 11.1335262865373,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-02",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
+    },
+    {
       "id": "granite-4-2-3b",
       "name": "Granite 4.2 3B",
       "provider": "IBM",
@@ -2016,19 +2029,6 @@
       "isOpenWeights": true,
       "releaseDate": "2026-03-02",
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
-    },
-    {
-      "id": "mistral-large-3",
-      "name": "Mistral Large 3",
-      "provider": "Mistral",
-      "creatorLogo": "mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 1.5,
-      "intelligenceIndex": 9.67787326555219,
-      "isOpenWeights": true,
-      "releaseDate": "2025-12-02",
-      "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
     },
     {
       "id": "gpt-oss-20b",
